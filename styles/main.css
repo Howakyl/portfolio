@@ -25,6 +25,8 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     min-height: 500px;
+    text-align: center;
+
 }
 
 nav {
@@ -34,8 +36,18 @@ nav {
     justify-content: space-evenly;
 }
 
+nav a {
+    display: block;
+}
+
+svg {
+    font-size: 25px;
+}
+
 .social-links {
     display: block;
+    list-style: none;
+    padding: 0;
 }
 
 a .social-links {

@@ -74,3 +74,22 @@ a:hover {
     width: 40%;
     max-height: 90%;
 }
+
+h1 {
+    font-size: 60px;
+}
+
+.h1-accent {
+    color: var(--text-accent);
+    letter-spacing: .4em;
+}
+
+button {
+    background-color: var(--primary-color);
+    border: 1px solid var(--main-accent);
+    border-radius: 5%;
+    color: var(--main-accent);
+    width: 30%;
+    padding: 5px 0; 
+    outline: none !important;
+}

@@ -3,6 +3,7 @@
     --secondary-color: #EDEDED;
     --main-accent: #08FDD8;
     --secondary-accent: #FC0A55;
+    --text-accent: #A5A5A5;
 }
 
 * {
@@ -23,21 +24,23 @@ body {
     top: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     min-height: 500px;
     text-align: center;
-
+    background-color: #181818;
 }
 
 nav {
     display: flex;
-    display: block;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
 nav a {
     display: block;
+    margin-top: 15px;
+    height: 50px;
+    color: var(--text-accent);
 }
 
 svg {
@@ -48,16 +51,26 @@ svg {
     display: block;
     list-style: none;
     padding: 0;
+    color: var(--text-accent);
 }
 
-a .social-links {
-    display: block;
+.social-links a {
+    color: var(--text-accent);
+}
+
+.social-links li {
+    padding: 10px 0;
+
+}
+
+a:hover {
+    color: var(--main-accent);
 }
 
 .text-zone {
     position: absolute;
-    left: 10%;
-    top: 50%;
+    left: 10%; /* MAKE 20% media query! */
+    top: 30%;
     width: 40%;
     max-height: 90%;
 }

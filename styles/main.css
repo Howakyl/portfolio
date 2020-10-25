@@ -68,11 +68,12 @@ a:hover {
 }
 
 .text-zone {
-    /* position: absolute; */
-    /* left: 10%; MAKE 20% media query! */
-    /* top: 30%; */
-    /* margin-left: 120px; */
-    margin-top: 15rem; 
+    position: absolute;
+    left: 10%; 
+    /* MAKE 20% media query! */
+    top: 30%;
+    /* margin-left: 1.5rem; */
+    margin-top: 5rem; 
     width: 40%;
     max-height: 90%;
     animation: fadeInUp;
@@ -97,15 +98,14 @@ h1 span {
     letter-spacing: .4em;
 }
 
-button {
+/* button {
     background-color: var(--primary-color);
     border: 1px solid var(--main-accent);
     border-radius: 5%;
     color: var(--main-accent);
-    width: 30%;
-    padding: 5px 0; 
+    padding: 5px 10px; 
     outline: none !important;
-}
+} */
 
 button:hover {
     background-color: var(--main-accent);
@@ -114,4 +114,42 @@ button:hover {
 
 main {
     margin-top: 10rem;
+}
+
+.card {
+    animation: fadeInDown;
+    animation-duration: 1s;
+    background-color: #181818;
+}
+
+.btn {
+    background-color: var(--main-accent);
+    border: 1px solid var(--main-accent);
+    color: var(--primary-color);
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+    border: 1px solid var(--main-accent);
+    color: var(--main-accent);
+}
+
+.card p {
+    color: var(--text-accent);
+}
+
+.site-link {
+    margin-left: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.card img {
+    height: 200px;
+}
+
+@media (max-width: 600px){
+    .text-zone{
+        left: 20%;
+    }
 }

@@ -128,10 +128,13 @@ main {
     color: var(--primary-color);
 }
 
+.btn:focus,
 .btn:hover {
     background-color: var(--primary-color);
-    border: 1px solid var(--main-accent);
+    border: 1px solid var(--main-accent) !important;
     color: var(--main-accent);
+    box-shadow: none !important;
+
 }
 
 .card p {

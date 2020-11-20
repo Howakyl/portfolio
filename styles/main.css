@@ -19,30 +19,31 @@ body {
 }
 
 #nav-bar {
-    height: 100%;
+    min-height: 100vh;
+    /* height: 100vh; */
     width: 60px;
     position: fixed;
-    top: 0;
+    /* top: 0; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 500px;
     text-align: center;
     background-color: #181818;
 }
 
-nav {
+/* nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-}
+    justify-content: space-between;
+    margin-top: 50px;
+} */
 
-nav a {
+/* nav a {
     display: block;
     margin-top: 15px;
     height: 50px;
     color: var(--text-accent);
-}
+} */
 
 svg {
     font-size: 25px;
@@ -68,16 +69,22 @@ a:hover {
 }
 
 .text-zone {
-    position: absolute;
-    left: 10%; 
+    /* position: fixed; */
+    /* left: 10%;  */
     /* MAKE 20% media query! */
-    top: 30%;
-    /* margin-left: 1.5rem; */
+    /* top: 30%; */
+    margin-left: 3.5rem;
     margin-top: 5rem; 
-    width: 40%;
+    /* width: 10x0%; */
     max-height: 90%;
     animation: fadeInUp;
     animation-duration: 1s;
+}
+
+.portfolio-cards {
+    /* max-width: 800px; */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -137,6 +144,10 @@ main {
 
 }
 
+.card {
+    margin-top: 1rem;
+}
+
 .card p {
     color: var(--text-accent);
 }
@@ -151,8 +162,62 @@ main {
     height: 200px;
 }
 
+#sideNav a {
+    position: absolute; 
+    left: -50px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    border-radius: 0 5px 5px 0; 
+    text-align: end;
+    color: var(--main-accent);
+
+}
+
+#sideNav a:hover {
+left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+.home {
+top: 20px;
+background-color: #181818;
+padding: 20px;
+}
+
+
+.about {
+top: 80px;
+background-color: #181818; 
+}
+
+.my-work {
+top: 140px;
+background-color: #181818;
+}
+
+.contact {
+top: 200px;
+background-color: #181818 
+}
+
+.hide {
+    display: none;
+}
+
+a:hover > span {
+    display: block;
+}
+
+a:hover > svg {
+    display: none;
+}
+
+/* 
 @media (max-width: 600px){
     .text-zone{
         left: 20%;
     }
-}
+} */

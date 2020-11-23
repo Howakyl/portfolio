@@ -11,6 +11,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -190,19 +194,21 @@ a:hover > svg {
 
 #my-work {
     justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
     /* height: 600px; */
 }
 
 .img-div img {
     max-width: 500px;
     height: auto;
+    border: solid var(--main-accent);
 }
 
 .project-info {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .myTrax {

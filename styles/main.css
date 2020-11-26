@@ -114,7 +114,12 @@ main {
     border: 1px solid var(--main-accent) !important;
     color: var(--main-accent);
     box-shadow: none !important;
+}
 
+.btn:after {
+    background-color: var(--main-accent);
+    border: 1px solid var(--main-accent);
+    color: var(--primary-color);
 }
 
 .card {
@@ -194,9 +199,7 @@ a:hover > svg {
 
 #my-work {
     justify-content: space-evenly;
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
-    /* height: 600px; */
+
 }
 
 .img-div img {
@@ -205,16 +208,19 @@ a:hover > svg {
     border: solid var(--main-accent);
 }
 
+.project-container {
+    margin-bottom: 10rem;
+}
+
 .project-info {
+    margin-left: 2em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.myTrax {
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+.gh-portfolio-btn {
+    margin-right: .5em;
 }
 
 /* 
@@ -223,3 +229,14 @@ a:hover > svg {
         left: 20%;
     }
 } */
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .project-info {
+        margin-top: 2rem;
+    }
+}

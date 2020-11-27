@@ -197,15 +197,12 @@ a:hover > svg {
     display: none;
 }
 
-#my-work {
-    justify-content: space-evenly;
-
-}
-
 .img-div img {
     max-width: 500px;
     height: auto;
     border: solid var(--main-accent);
+    animation: fadeInLeft;
+    animation-duration: 1s;
 }
 
 .project-container {
@@ -217,6 +214,8 @@ a:hover > svg {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    animation: fadeInRight;
+    animation-duration: 1s;
 }
 
 .gh-portfolio-btn {

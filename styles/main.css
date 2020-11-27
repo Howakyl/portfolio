@@ -234,9 +234,16 @@ a:hover > svg {
     .project-container {
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
+    }
+
+    .project-container img {
+        width: 85%;
+        margin-left: 3em;
     }
 
     .project-info {
         margin-top: 2rem;
+        margin-left: 2.5em;
     }
 }

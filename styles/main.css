@@ -228,8 +228,19 @@ h3 span {
                 2px 2px var(--secondary-accent);
 }
 
+#about {
+
+}
+
+.about-article {
+    margin-top: 6rem;
+}
+
 #contact {
     text-align: center;
+    padding-top: 60px;
+    /* background-color: black; */
+    height: 14rem;
 }
 
 .contact-link {

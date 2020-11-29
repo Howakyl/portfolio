@@ -196,7 +196,6 @@ a:hover > svg {
 .img-div img {
     max-width: 500px;
     height: auto;
-    border: solid 2px var(--secondary-accent);
     border-radius: 5px;
     animation: fadeInLeft;
     animation-duration: 1s;
@@ -219,12 +218,16 @@ a:hover > svg {
     margin-right: .5em;
 }
 
-/* 
-@media (max-width: 600px){
-    .text-zone{
-        left: 20%;
-    }
-} */
+.project-title {
+    letter-spacing: 2px;
+}
+
+h3 span {
+    color: var(--main-accent);
+    text-shadow: 1px 1px var(--secondary-accent), 
+                2px 2px var(--secondary-accent), 
+                2px 2px var(--secondary-accent);
+}
 
 @media only screen and (max-width: 1000px) {
     .project-container {

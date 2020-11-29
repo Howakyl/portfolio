@@ -74,15 +74,37 @@ h1 span {
                 3px 3px var(--secondary-accent);
 }
 
+h2 span {
+    color: var(--main-accent);
+    text-shadow: 1px 1px var(--secondary-accent), 
+                2px 2px var(--secondary-accent), 
+                2px 2px var(--secondary-accent);
+}
+
+h3 span {
+    color: var(--main-accent);
+    text-shadow: 1px 1px var(--secondary-accent), 
+                2px 2px var(--secondary-accent), 
+                2px 2px var(--secondary-accent);
+}
+
 
 .h1-accent {
     color: var(--text-accent);
     letter-spacing: .4em;
 }
 
-button:hover {
+/* button:hover {
     background-color: var(--main-accent);
     color: var(--primary-color);
+} */
+
+.contact-button a {
+    color: var(--primary-color);
+}
+
+.contact-button:hover a{
+    color: var(--main-accent);
 }
 
 main {
@@ -101,11 +123,11 @@ main {
     color: var(--primary-color);
 }
 
-.btn:focus,
+.btn:focus ,
 .btn:hover {
     background-color: var(--primary-color);
     border: 1px solid var(--main-accent) !important;
-    color: var(--main-accent);
+    color: var(--main-accent) !important;
     box-shadow: none !important;
 }
 
@@ -221,15 +243,15 @@ a:hover > svg {
     margin-bottom: .5em;
 }
 
-h3 span {
-    color: var(--main-accent);
-    text-shadow: 1px 1px var(--secondary-accent), 
-                2px 2px var(--secondary-accent), 
-                2px 2px var(--secondary-accent);
+#about {
+    animation: fadeIn;
+    animation-duration: 1s;
 }
 
-#about {
-
+.about-title {
+    letter-spacing: 2px;
+    /* font-size: 35px; */
+    margin-bottom: .5em;
 }
 
 .about-article {
@@ -239,7 +261,6 @@ h3 span {
 #contact {
     text-align: center;
     padding-top: 60px;
-    /* background-color: black; */
     height: 14rem;
 }
 
@@ -249,6 +270,7 @@ h3 span {
 
 .contact-link:hover {
     color: var(--secondary-accent);
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -266,5 +288,9 @@ h3 span {
     .project-info {
         margin-top: 2rem;
         margin-left: 2.25em;
+    }
+
+    #about {
+        width: 90%;
     }
 }

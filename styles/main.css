@@ -3,7 +3,7 @@
     --secondary-color: #EDEDED;
     --main-accent: #08FDD8;
     --secondary-accent: #FC0A55;
-    --text-accent: #A5A5A5;
+    --text-accent: #b1b1b1;
 }
 
 * {
@@ -47,13 +47,26 @@ a:hover {
     color: var(--main-accent);
 }
 
+.home-bg {
+    background: 
+    linear-gradient(180deg, 
+    rgba(1, 1, 1, .42),
+    #1D1D1D
+    ),
+    url('../images/coding-bg-7.png');
+    background-image: linear-gradient(rgba(223, 223, 223, .12)),
+    url('../images/coding-bg-7.png');
+    background-size: cover;
+    width: 100%;
+}
+
 .text-zone {
     margin-left: 3.5rem;
-    margin-top: 5rem; 
+    padding-top: 10rem; 
     max-height: 90%;
     animation: fadeInUp;
     animation-duration: 1s;
-    margin-bottom: 14rem;
+    padding-bottom: 16rem;
 }
 
 .portfolio-cards {
@@ -93,11 +106,6 @@ h3 span {
     color: var(--text-accent);
     letter-spacing: .4em;
 }
-
-/* button:hover {
-    background-color: var(--main-accent);
-    color: var(--primary-color);
-} */
 
 .contact-button a {
     color: var(--primary-color);
@@ -292,5 +300,11 @@ a:hover > svg {
 
     #about {
         width: 90%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .text-zone {
+        padding-left: 5rem;
     }
 }

@@ -51,13 +51,8 @@ a:hover {
 }
 
 .text-zone {
-    /* position: fixed; */
-    /* left: 10%;  */
-    /* MAKE 20% media query! */
-    /* top: 30%; */
     margin-left: 3.5rem;
     margin-top: 5rem; 
-    /* width: 10x0%; */
     max-height: 90%;
     animation: fadeInUp;
     animation-duration: 1s;
@@ -72,6 +67,7 @@ a:hover {
 h1 {
     font-size: 65px;
     font-weight: bold;
+    letter-spacing: 5px;
 }
 
 h1 span {

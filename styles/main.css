@@ -70,6 +70,22 @@ a:hover {
     padding-bottom: 16rem;
 }
 
+.home-arrow-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home-arrow {
+    cursor: pointer;
+    text-align: center;
+    color: var(--main-accent);
+}
+
+.home-arrow:hover {
+    color: var(--secondary-accent);
+}
+
 .portfolio-cards {
     display: flex;
     flex-wrap: wrap;
@@ -208,7 +224,7 @@ background-color: #181818
     display: none;
 }
 
-a:hover > span {
+.nav-link:hover > span {
     display: block;
 }
 
@@ -217,7 +233,7 @@ a:hover > span {
     color: #181818 ;
 }
 
-a:hover > svg {
+.nav-link:hover > svg {
     display: none;
 }
 

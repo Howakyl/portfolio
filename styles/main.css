@@ -92,7 +92,7 @@ h2 span {
     color: var(--main-accent);
     text-shadow: 1px 1px var(--secondary-accent), 
                 2px 2px var(--secondary-accent), 
-                2px 2px var(--secondary-accent);
+                3px 3px var(--secondary-accent);
 }
 
 h3 span {
@@ -227,6 +227,7 @@ a:hover > svg {
     border-radius: 5px;
     animation: fadeInLeft;
     animation-duration: 1s;
+    min-height: 270px;
 }
 
 .project-container {
@@ -248,7 +249,7 @@ a:hover > svg {
 
 .project-title {
     letter-spacing: 2px;
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: .5em;
 }
 
@@ -259,7 +260,7 @@ a:hover > svg {
 
 .about-title {
     letter-spacing: 2px;
-    /* font-size: 35px; */
+    font-size: 50px;
     margin-bottom: .5em;
 }
 

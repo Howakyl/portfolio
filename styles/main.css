@@ -257,6 +257,10 @@ background-color: var(--primary-color)
     display: none;
 }
 
+#my-work {
+    padding-top: 150px;
+}
+
 .img-div img {
     max-width: 500px;
     height: auto;

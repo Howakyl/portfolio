@@ -84,6 +84,9 @@ a:hover {
     cursor: pointer;
     text-align: center;
     color: var(--main-accent);
+    animation: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .home-arrow:hover {
@@ -123,6 +126,13 @@ h1 span {
                 2px 2px var(--main-accent), 
                 2px 2px var(--main-accent);
 } */
+
+.h1-period {
+    color: var(--main-accent);
+    text-shadow: 1px 1px var(--secondary-accent), 
+                2px 2px var(--secondary-accent), 
+                2px 2px var(--secondary-accent);
+}
 
 .orange-accent {
     color: var(--secondary-accent);

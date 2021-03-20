@@ -297,7 +297,8 @@ background-color: var(--primary-color)
     letter-spacing: 2px;
     font-size: 40px;
     margin-bottom: .5em;
-    color: var(--main-accent)
+    color: var(--main-accent);
+    display: inline-block;
 }
 
 #about {
@@ -311,11 +312,29 @@ background-color: var(--primary-color)
     margin-bottom: .5em;
     color: var(--main-accent);
     font-family: var(--title-font);
+    text-align: center;
+    display: inline-block;
 }
 
-/* .skills {
+.skills {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
-} */
+.line {
+    background-color: var(--secondary-accent);
+    width: 300px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    height: 1px;
+    display: inline-block;
+    align-self: center;
+}
+
+.divider {
+    color: var(--secondary-accent);
+}
 
 .about-article {
     margin-top: 6rem;
@@ -355,6 +374,22 @@ background-color: var(--primary-color)
 
     #about {
         width: 85%;
+    }
+
+    .skills {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #my-work {
+        padding-top: 80px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    #my-work {
+        padding-top: 10px;
     }
 }
 

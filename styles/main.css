@@ -309,7 +309,13 @@ background-color: var(--primary-color)
     letter-spacing: 2px;
     font-size: 50px;
     margin-bottom: .5em;
+    color: var(--main-accent);
+    font-family: var(--title-font);
 }
+
+/* .skills {
+
+} */
 
 .about-article {
     margin-top: 6rem;

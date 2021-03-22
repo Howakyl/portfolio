@@ -368,7 +368,12 @@ background-color: var(--primary-color)
 }
 
 .typeText::after {
-    content: "|";
+    content: "_";
+    animation: none;
+    color: var(--secondary-accent);
+}
+
+.showAnim.typeText::after {
     animation: blink 1s step-end infinite;
 }
 

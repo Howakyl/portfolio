@@ -33,13 +33,13 @@ typeWriter()
 //// Blinking Cursor ////
 let typeText = document.querySelector('.typeText');
 let textToBeTyped = ['Software Engineer', 'Full-Stack Web Developer', 'Problem Solver', 'Musician', 'Forever Learner'];
-let index = 0, isAdding = true, textToBeTypedIndex = 0
+let index = 0, isAdding = true, textIndex = 0
 
 function playAnimation() {
   setTimeout(() => {
-    typeText.innerText = textToBeTyped[textToBeTypedIndex].slice(0, index)
+    typeText.innerText = textToBeTyped[textIndex].slice(0, index)
     if (isAdding) {
-      if (index > textToBeTyped[textToBeTypedIndex].length) {
+      if (index > textToBeTyped[textIndex].length) {
         // no more text to add
         isAdding = false;
         // wait 2 seconds before playing again
@@ -57,7 +57,7 @@ function playAnimation() {
       if (index === 0) {
         // no more text to remove
         isAdding = true;
-        textToBeTypedIndex = (textToBeTypedIndex + 1) % textToBeTyped.length;
+        textIndex = (textIndex + 1) % textToBeTyped.length;
       } else {
         index --;
       }

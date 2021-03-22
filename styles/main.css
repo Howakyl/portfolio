@@ -141,6 +141,10 @@ h1 span {
     font-size: 20px;
 }
 
+.accent-1 {
+    letter-spacing: .15em;
+}
+
 .accent-2 {
     font-size: 25px;
 }
@@ -209,7 +213,7 @@ main {
     position: fixed; 
     left: -50px; 
     transition: 0.3s; 
-    padding: 15px; 
+    padding: 15px;
     width: 100px; 
     text-decoration: none; 
     font-size: 20px; 
@@ -355,6 +359,29 @@ background-color: var(--primary-color)
     text-decoration: none;
 }
 
+.accent-2 {
+    display: inline-block;
+}
+
+.typeText {
+    display: inline-block;
+}
+
+.typeText::after {
+    content: "_";
+    animation: none;
+    color: var(--secondary-accent);
+}
+
+.showAnim.typeText::after {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+}
+
 @media only screen and (max-width: 1000px) {
     .project-container {
         flex-wrap: wrap;
@@ -390,6 +417,27 @@ background-color: var(--primary-color)
 @media only screen and (max-width: 650px) {
     #my-work {
         padding-top: 10px;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    .text-zone {
+        padding-top: 4rem;
+    }
+
+    .project-title {
+        margin-bottom: 5px;
+    }
+
+    .about-title {
+        margin-bottom: 5px;
+    }
+
+    .line {
+        width: 85%;
+        margin-left: 0;
     }
 }
 

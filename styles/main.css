@@ -359,8 +359,22 @@ background-color: var(--primary-color)
     text-decoration: none;
 }
 
-#cursor {
-    font-size: 30px;
+.accent-2 {
+    display: inline-block;
+}
+
+.typeText {
+    display: inline-block;
+}
+
+.typeText::after {
+    content: "|";
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
 }
 
 @media only screen and (max-width: 1000px) {

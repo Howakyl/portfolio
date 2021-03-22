@@ -78,7 +78,7 @@ function playAnimation() {
     }
     // playAnimation calls itself every 120ms
     playAnimation()
-  }, 120)
+  }, isAdding ? 120: 60)
 }
 
 playAnimation()

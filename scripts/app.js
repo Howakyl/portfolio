@@ -45,3 +45,40 @@ typeWriter()
 //     cursor = true;
 //   }
 // }, cursorSpeed);
+
+
+//// Blinking Cursor ////
+let typeText = document.querySelector('.typeText');
+let textToBeTyped = 'Software Engineer';
+let index = 0, isAdding = true
+
+function playAnimation() {
+  setTimeout(() => {
+    typeText.innerText = textToBeTyped.slice(0, index)
+    if (isAdding) {
+      if (index > textToBeTyped.length) {
+        // no more text to add
+        isAdding = false;
+        // wait 2 seconds before playing again
+        setTimeout(() => {
+          playAnimation()
+        }, 2000)
+        return;
+      } else {
+        index++;
+      }
+    } else {
+      // remove text
+      if (index === 0) {
+        // no more text to remove
+        isAdding = true;
+      } else {
+        index --;
+      }
+    }
+    // playAnimation calls itself every 120ms
+    playAnimation()
+  }, 120)
+}
+
+playAnimation()

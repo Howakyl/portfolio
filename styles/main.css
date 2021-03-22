@@ -209,7 +209,7 @@ main {
     position: fixed; 
     left: -50px; 
     transition: 0.3s; 
-    padding: 15px; 
+    padding: 15px;
     width: 100px; 
     text-decoration: none; 
     font-size: 20px; 
@@ -390,6 +390,27 @@ background-color: var(--primary-color)
 @media only screen and (max-width: 650px) {
     #my-work {
         padding-top: 10px;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    .text-zone {
+        padding-top: 4rem;
+    }
+
+    .project-info {
+        margin-left: 3.25em;
+    }
+
+    .project-title {
+        margin-bottom: 5px;
+    }
+
+    .line {
+        width: 85%;
+        margin-left: 0;
     }
 }
 

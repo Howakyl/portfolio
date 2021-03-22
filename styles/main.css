@@ -369,7 +369,7 @@ background-color: var(--primary-color)
 
 .typeText::after {
     content: "|";
-    animation: blink 1s infinite;
+    animation: blink 1s step-end infinite;
 }
 
 @keyframes blink {

@@ -400,11 +400,11 @@ background-color: var(--primary-color)
         padding-top: 4rem;
     }
 
-    .project-info {
-        margin-left: 3.25em;
+    .project-title {
+        margin-bottom: 5px;
     }
 
-    .project-title {
+    .about-title {
         margin-bottom: 5px;
     }
 

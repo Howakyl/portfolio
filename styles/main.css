@@ -464,8 +464,7 @@ background-color: var(--primary-color)
     }
 
     .project-container {
-        width: 85%;
-        margin-left: 2.25em;
+        margin-left: 1em;
     }
 
     .project-info {

@@ -109,19 +109,6 @@ h1 span {
                 3px 3px var(--secondary-accent);
 }
 
-/* h2 span {
-    color: var(--secondary-accent);
-    text-shadow: 1px 1px var(--main-accent), 
-                2px 2px var(--main-accent), 
-                3px 3px var(--main-accent);
-} */
-
-/* h3 span {
-    color: var(--secondary-accent);
-    text-shadow: 1px 1px var(--main-accent), 
-                2px 2px var(--main-accent), 
-                2px 2px var(--main-accent);
-} */
 
 .h1-period {
     color: var(--main-accent);
@@ -139,6 +126,22 @@ h1 span {
     color: var(--text-accent);
     letter-spacing: .3em;
     font-size: 20px;
+}
+
+/* ANIMATED TEXT STYLES */
+
+.typeText {
+    display: inline-block;
+}
+
+.typeText::after {
+    content: "_";
+    animation: none;
+    color: var(--secondary-accent);
+}
+
+.showAnim.typeText::after {
+    animation: blink 1s step-end infinite;
 }
 
 .accent-1 {
@@ -271,13 +274,36 @@ background-color: var(--primary-color)
     align-items: center;
 }
 
-.img-div img {
+.img-div {
     max-width: 500px;
-    height: auto;
+    height: 270px;
     border-radius: 5px;
     animation: fadeInLeft;
     animation-duration: 1s;
     min-height: 270px;
+    position: relative;
+}
+
+.img-div img {
+    max-width: 500px;
+    height: 100%;
+    border-radius: 5px;
+    animation: fadeInLeft;
+    animation-duration: 1s;
+    min-height: 270px;
+    position: relative;
+}
+
+.img-border {
+    border: 1px solid var(--secondary-accent);
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: -1;
+    border-radius: 3px;
 }
 
 .project-container {
@@ -363,19 +389,7 @@ background-color: var(--primary-color)
     display: inline-block;
 }
 
-.typeText {
-    display: inline-block;
-}
-
-.typeText::after {
-    content: "_";
-    animation: none;
-    color: var(--secondary-accent);
-}
-
-.showAnim.typeText::after {
-    animation: blink 1s step-end infinite;
-}
+/* ANIMATED TEXT STYLING */
 
 @keyframes blink {
     0%, 100% {opacity: 1;}
@@ -389,7 +403,7 @@ background-color: var(--primary-color)
         justify-content: center;
     }
 
-    .project-container img {
+    .project-container {
         width: 85%;
         margin-left: 2.25em;
     }
@@ -413,6 +427,7 @@ background-color: var(--primary-color)
     #my-work {
         padding-top: 80px;
     }
+
 }
 @media only screen and (max-width: 650px) {
     #my-work {
@@ -438,6 +453,14 @@ background-color: var(--primary-color)
     .line {
         width: 85%;
         margin-left: 0;
+    }
+
+    .img-div {
+        width: 85%;
+    }
+
+    .img-div img {
+        width: 100%;
     }
 }
 

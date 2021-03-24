@@ -34,6 +34,7 @@ svg {
     padding: 0;
     color: var(--main-accent);
     font-size: 40px;
+    
 }
 
 .social-links a {
@@ -71,6 +72,7 @@ a:hover {
 
 .home-arrow-container i {
     font-size: 50px;
+    border-radius: 50%;
 }
 
 .home-arrow {
@@ -80,6 +82,11 @@ a:hover {
     animation: pulse;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+
+.home-arrow i {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .home-arrow:hover {
@@ -155,6 +162,7 @@ h1 span {
 .h1-accent span {
     color: var(--secondary-accent)
 }
+/* ////////////// */
 
 .contact-button a {
     color: var(--primary-color);
@@ -178,6 +186,7 @@ main {
     background-color: var(--main-accent);
     border: 1px solid var(--main-accent);
     color: var(--primary-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn:focus ,

@@ -32,7 +32,7 @@ typeWriter()
 
 //// Blinking Cursor ////
 let typeText = document.querySelector('.typeText');
-let textToBeTyped = ['Software Engineer', 'Full-Stack Web Developer', 'Problem Solver', 'Musician', 'Forever Learner'];
+let textToBeTyped = ['Software Engineer', 'Full-Stack Web Developer', 'Problem Solver'];
 let index = 0, isAdding = true, textIndex = 0
 
 function playAnimation() {

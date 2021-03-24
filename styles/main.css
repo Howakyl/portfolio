@@ -232,7 +232,10 @@ main {
     border-radius: 0 5px 5px 0; 
     text-align: end;
     color: var(--main-accent);
+}
 
+#sideNav svg:hover {
+    color: var(--secondary-accent);
 }
 
 .home {

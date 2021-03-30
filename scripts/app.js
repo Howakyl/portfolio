@@ -67,4 +67,5 @@ function playAnimation() {
   }, isAdding ? 120: 60)
 }
 
-playAnimation()
+playAnimation();
+

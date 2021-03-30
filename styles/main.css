@@ -27,6 +27,22 @@ svg {
     font-size: 25px;
 }
 
+.social-nav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.social-nav a {
+    color: var(--main-accent);
+}
+
 .social-links {
     display: flex;
     justify-content: space-evenly;
@@ -582,6 +598,10 @@ background-color: var(--primary-color)
     }
 
     .img-div img {
+        width: 100%;
+    }
+
+    .skill-icon-container {
         width: 100%;
     }
 }

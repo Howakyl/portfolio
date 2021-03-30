@@ -27,6 +27,22 @@ svg {
     font-size: 25px;
 }
 
+.social-nav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.social-nav a {
+    color: var(--main-accent);
+}
+
 .social-links {
     display: flex;
     justify-content: space-evenly;
@@ -353,6 +369,57 @@ background-color: var(--primary-color)
     margin-right: 50px;
 }
 
+.skill-icon-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.skill-icon {
+    width: 60px;
+    height: auto;
+    margin: 10px;
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    opacity: .80;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+}
+
+.tooltip-text::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--secondary-color) transparent transparent transparent;
+}
+
 .line {
     background-color: var(--secondary-accent);
     width: 300px;
@@ -531,6 +598,10 @@ background-color: var(--primary-color)
     }
 
     .img-div img {
+        width: 100%;
+    }
+
+    .skill-icon-container {
         width: 100%;
     }
 }

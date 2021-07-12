@@ -328,6 +328,24 @@ background-color: var(--primary-color)
     flex-direction: column;
 }
 
+.other-projects-container h3 {
+    text-align: center;
+    color: var(--main-accent);
+}
+
+.other-projects {
+    justify-content: space-around;
+}
+
+.other-projects-folder {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 40%;
+}
+
+/* ////////////// */
+
 .project-container {
     margin-bottom: 13rem;
 }

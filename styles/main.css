@@ -335,6 +335,11 @@ background-color: var(--primary-color)
 .other-projects-header i {
     color: var(--main-accent);
     font-size: 25px;
+    margin-left: 10px;
+}
+
+.other-projects-header i:hover {
+    color: var(--secondary-accent);
 }
 
 .other-projects-container h3 {
@@ -353,6 +358,7 @@ background-color: var(--primary-color)
     width: 40%;
     margin: 1rem;
     padding: 10px;
+    padding-top: 15px;
 }
 
 .other-projects-folder h4 {

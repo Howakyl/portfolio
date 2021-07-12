@@ -1,34 +1,3 @@
-let i = 0;
-let intro = document.getElementById('typeOutName');
-let text = 'yle oward'
-let speed = 150;
-let spanK = document.createElement('span')
-let spanH = document.createElement('span')
-let spanP = document.createElement('span')
-spanP.setAttribute('class', 'h1-period')
-spanP.innerHTML = '.'
-spanK.innerHTML = 'K'
-spanH.innerHTML = 'H'
-
-function typeWriter () {
-  if (i < text.length) {
-    if (i === 0) {
-      intro.appendChild(spanK)
-    }
-    if (i === 4) {
-      intro.innerHTML += ' '
-      intro.appendChild(spanH)
-    }
-    intro.innerHTML += text.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-  if (i === text.length) {
-    intro.appendChild(spanP)
-  }
-}
-typeWriter()
-
 
 //// Blinking Cursor ////
 let typeText = document.querySelector('.typeText');

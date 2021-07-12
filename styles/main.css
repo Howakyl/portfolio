@@ -323,6 +323,11 @@ background-color: var(--primary-color)
     background-color: var(--secondary-accent);
 }
 
+/* OTHER PROJECTS */
+.other-projects-container {
+    flex-direction: column;
+}
+
 .project-container {
     margin-bottom: 13rem;
 }

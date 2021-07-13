@@ -31,6 +31,8 @@ body {
     min-height: 100vh;
 }
 
+/* NIGHT THEME */
+
 .night-theme {
     position: absolute;
     right: 5%;
@@ -179,8 +181,8 @@ h1 span {
 .h1-period {
     color: var(--main-accent);
     text-shadow: 1px 1px var(--secondary-accent), 
-                2px 2px var(--secondary-accent), 
-                2px 2px var(--secondary-accent);
+                1px 1px var(--secondary-accent), 
+                1px 1px var(--secondary-accent);
 }
 
 .orange-accent {

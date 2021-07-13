@@ -298,6 +298,17 @@ background-color: var(--primary-color)
     animation-duration: 1s;
     min-height: 270px;
     position: relative;
+    transition: transform .3s ease-out;
+}
+
+.img-div:hover {
+    transform: translateY(-10px);
+}
+
+.img-div:hover .img-border {
+    left: 5px;
+    top: 5px;
+    transform: translateY((-10px));
 }
 
 .img-div img {

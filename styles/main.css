@@ -31,6 +31,36 @@ body {
     min-height: 100vh;
 }
 
+.night-theme {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+}
+
+.night-theme i {
+    color: rgb(235, 235, 0);
+    cursor: pointer;
+    background-color: black;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+}
+
+.theme-switch input {
+    display:none;
+}
+/* ////////////// */
+
 svg {
     font-size: 25px;
 }

@@ -306,9 +306,9 @@ background-color: var(--primary-color)
 }
 
 .img-div:hover .img-border {
-    left: 5px;
-    top: 5px;
-    transform: translateY((-10px));
+    /* left: 5px; */
+    /* top: 5px; */
+    transform: translateY(-5px) translateX(-6px);
 }
 
 .img-div img {
@@ -332,6 +332,7 @@ background-color: var(--primary-color)
     z-index: -1;
     border-radius: 5px;
     background-color: var(--secondary-accent);
+    transition: transform .3s ease-out;
 }
 
 /* OTHER PROJECTS */

@@ -7,6 +7,14 @@
     --title-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+[data-theme="dark"] {
+    --primary-color: #2e2d2d;
+    --secondary-color: #EDEDED;
+    --main-accent: #295ea4;
+    --secondary-accent: #F0A32F;
+    --text-accent: #c5c5c5;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

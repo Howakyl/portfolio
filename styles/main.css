@@ -306,8 +306,6 @@ background-color: var(--primary-color)
 }
 
 .img-div:hover .img-border {
-    /* left: 5px; */
-    /* top: 5px; */
     transform: translateY(-5px) translateX(-6px);
 }
 
@@ -528,6 +526,15 @@ background-color: var(--primary-color)
     border-radius: 5px;
     flex-grow: 2;
     position: relative;
+    transition: transform .3s ease-out;
+}
+
+.me-img-div:hover {
+    transform: translateY(-10px);
+}
+
+.me-img-div:hover .me-img-border{
+    transform: translateY(-5px) translateX(-8px);
 }
 
 .me-img {
@@ -549,6 +556,7 @@ background-color: var(--primary-color)
     left: 10px;
     border-radius: 5px;
     z-index: -1;
+    transition: transform .3s ease-out;
 }
 
 #contact {

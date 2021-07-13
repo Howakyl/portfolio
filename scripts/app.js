@@ -38,3 +38,22 @@ function playAnimation() {
 
 playAnimation();
 
+
+// NIGHT THEME OPTIONS //
+
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+const themeIcon = document.querySelector('.theme-icon');
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        themeIcon.removeAttribute('class');
+        themeIcon.setAttribute('class', 'fas fa-sun')
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        themeIcon.removeAttribute('class');
+        themeIcon.setAttribute('class', 'fas fa-moon')
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);

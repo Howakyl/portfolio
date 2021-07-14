@@ -43,16 +43,27 @@ playAnimation();
 
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 const themeIcon = document.querySelector('.theme-icon');
+const currentTheme = localStorage.getItem('theme');
+
+if (currentTheme) {
+  document.documentElement.setAttribute('data-theme', currentTheme);
+  if (currentTheme === 'dark') {
+    toggleSwitch.checked = true;
+  }
+}
+
 function switchTheme(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
         themeIcon.removeAttribute('class');
-        themeIcon.setAttribute('class', 'fas fa-sun')
+        themeIcon.setAttribute('class', 'fas fa-sun');
+        localStorage.setItem('theme' , 'dark')
     }
     else {
         document.documentElement.setAttribute('data-theme', 'light');
         themeIcon.removeAttribute('class');
-        themeIcon.setAttribute('class', 'fas fa-moon')
+        themeIcon.setAttribute('class', 'fas fa-moon');
+        localStorage.setItem('theme' , 'light');
     }    
 }
 

@@ -1,5 +1,5 @@
 <template>
-  <button type="button" class="btn btn primary contact-button">
+  <button type="button" class="btn contact-button">
     <slot />
   </button>
 </template>

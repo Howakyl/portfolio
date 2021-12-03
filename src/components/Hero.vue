@@ -9,7 +9,9 @@
         <span class="slashes">// </span>
         <span class="typeText h1-accent"></span>
       </p>
-      <a href="#contact" class="btn btn primary contact-button">Contact Me!</a>
+      <Button>
+        <a href="#contact">Contact Me!</a>
+      </Button>
     </article>
 
     <div class="home-arrow-container">

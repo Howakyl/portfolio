@@ -1,11 +1,6 @@
 <template>
   <div class="d-flex project-container">
-    <div class="img-div">
-      <a href="https://fishily.netlify.app/" target="_blank">
-        <img src="~/assets/images/fishily-map.png" alt="fishily" />
-      </a>
-      <div class="img-border"></div>
-    </div>
+    <Content />
     <div>
       <div class="project-info">
         <div>
@@ -27,18 +22,16 @@
             <Divider /> Bootstrap <Divider /> CSS3 <Divider /> HTML5
           </p>
           <div>
-            <a
-              href="https://github.com/Howakyl/fishily-client"
-              class="btn btn-primary"
-              target="_blank"
-              ><i class="fab fa-github gh-portfolio-btn"></i>Respository</a
-            >
-            <a
-              href="https://fishily.netlify.app/"
-              class="btn btn-primary site-link"
-              target="_zero"
-              >Visit</a
-            >
+            <Button>
+              <a
+                href="https://github.com/Howakyl/fishily-client"
+                target="_blank"
+                ><i class="fab fa-github gh-portfolio-btn"></i>Respository</a
+              >
+            </Button>
+            <Button>
+              <a href="https://fishily.netlify.app/" target="_zero">Visit</a>
+            </Button>
           </div>
         </div>
       </div>
@@ -49,9 +42,13 @@
 <script>
 import "~/assets/Project.css";
 import Divider from "./Divider.vue";
+import Content from "./Content.vue";
+import Button from "./Button.vue";
 export default {
   components: {
     Divider,
+    Content,
+    Button,
   },
 };
 </script>

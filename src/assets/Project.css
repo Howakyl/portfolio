@@ -1,5 +1,7 @@
 .project-container {
+  margin: 0 auto;
   margin-bottom: 13rem;
+  display: flex;
 }
 
 .project-info {
@@ -22,7 +24,14 @@
 .tech-used {
   color: var(--main-accent);
   font-family: var(--title-font);
-  font-size: initial;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.site-link {
+  margin-left: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 @media only screen and (max-width: 1000px) {

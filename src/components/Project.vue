@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex project-container">
+  <div class="container project-container">
     <Content />
     <div>
       <div class="project-info">
@@ -29,8 +29,8 @@
                 ><i class="fab fa-github gh-portfolio-btn"></i>Respository</a
               >
             </Button>
-            <Button>
-              <a href="https://fishily.netlify.app/" target="_zero">Visit</a>
+            <Button class="site-link">
+              <a href="https://fishily.netlify.app/" target="_zero" >Visit</a>
             </Button>
           </div>
         </div>

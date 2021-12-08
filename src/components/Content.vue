@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import '~/assets/Content.css'
 export default {};
 </script>
 

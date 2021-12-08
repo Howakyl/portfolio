@@ -13,20 +13,16 @@
         <a href="#contact">Contact Me!</a>
       </Button>
     </article>
-
-    <div class="home-arrow-container">
-      <a href="#my-work" class="home-arrow">
-        <i class="fas fa-arrow-circle-down"></i>
-      </a>
-    </div>
+    <ArrowIcon />
   </section>
 </template>
 
 <script>
 import "~/assets/Hero.css";
 import Button from "./Button.vue";
+import ArrowIcon from './ArrowIcon.vue'
 export default {
-  components: { Button },
+  components: { Button, ArrowIcon },
   data() {
     return {
       textToBeTyped: [

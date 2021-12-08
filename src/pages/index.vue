@@ -37,6 +37,10 @@ export default {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--primary-color);
   color: var(--secondary-color);

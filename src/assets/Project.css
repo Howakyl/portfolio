@@ -1,0 +1,15 @@
+.project-container {
+  margin-bottom: 13rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-container {
+    margin-left: 1em;
+  }
+}

@@ -26,10 +26,21 @@
   font-family: var(--title-font);
   font-size: 1.25rem;
   font-weight: 500;
+  margin: 1rem 0;
+}
+
+.tech-used-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech-used-items p {
+  margin-right: .25rem;
 }
 
 .project-buttons-container {
   display: flex;
+  margin-top: .5rem;
 }
 
 .site-link a {

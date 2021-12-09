@@ -1,15 +1,20 @@
 <template>
   <div class="img-div">
-    <a href="https://fishily.netlify.app/" target="_blank">
-      <img src="~/assets/images/fishily-map.png" alt="fishily" />
+    <a :href="imageLink" target="_blank">
+      <img v-if="imageSrc" :src="require(`~/assets/images/${imageSrc}`)" alt="fishily" />
     </a>
     <div class="img-border"></div>
   </div>
 </template>
 
 <script>
-import '~/assets/Content.css'
-export default {};
+import "~/assets/Content.css";
+export default {
+  props: {
+    imageSrc: String,
+    imageLink: String,
+  },
+};
 </script>
 
 <style></style>

@@ -1,15 +1,6 @@
 export default {
   head: {
     title: "Kyle Howard - Software Engineer",
-    meta: [{ charset: "utf-8" }],
-    script: [
-      {
-        src: "https://code.jquery.com/jquery-3.5.1.slim.min.js",
-      },
-      {
-        src: "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js",
-      },
-    ],
     link: [
       {
         rel: "stylesheet",
@@ -30,4 +21,7 @@ export default {
       },
     ],
   },
+  server: {
+    host: '10.0.0.5'
+  }
 };

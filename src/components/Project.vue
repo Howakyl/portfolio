@@ -21,16 +21,22 @@
             <Divider /> REST API <Divider /> Heroku <Divider /> Javascript
             <Divider /> Bootstrap <Divider /> CSS3 <Divider /> HTML5
           </p>
-          <div>
-            <Button>
-              <a
-                href="https://github.com/Howakyl/fishily-client"
-                target="_blank"
-                ><i class="fab fa-github gh-portfolio-btn"></i>Respository</a
-              >
+          <div class="project-buttons-container">
+            <Button
+              :content="'Repository'"
+              :isLink="true"
+              :blank="true"
+              :href="'https://github.com/Howakyl/fishily-client'"
+            >
+              <i class="fab fa-github gh-portfolio-btn"></i>
             </Button>
-            <Button class="site-link">
-              <a href="https://fishily.netlify.app/" target="_zero" >Visit</a>
+            <Button
+              class="site-link"
+              :content="'Visit'"
+              :isLink="true"
+              :blank="true"
+              :href="'https://fishily.netlify.app/'"
+            >
             </Button>
           </div>
         </div>

@@ -9,8 +9,11 @@
         <span class="slashes">// </span>
         <span class="typeText h1-accent"></span>
       </p>
-      <Button>
-        <a href="#contact">Contact Me!</a>
+      <Button
+      :content="'Contact Me!'"
+      :isLink="true"
+      :href="'#contact'"
+      >
       </Button>
     </article>
     <ArrowIcon />

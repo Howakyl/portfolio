@@ -2,6 +2,7 @@
   "name": "my-app",
   "scripts": {
     "dev": "nuxt src",
+    "dev:host" : "nuxt --hostname '10.0.0.5'",
     "build": "nuxt build",
     "generate": "nuxt generate",
     "start": "nuxt start"

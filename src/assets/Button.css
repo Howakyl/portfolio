@@ -1,3 +1,7 @@
+.button {
+    margin-top: 1rem;
+}
+
 .btn {
     background-color: var(--main-accent);
     border: 1px solid var(--main-accent);
@@ -18,7 +22,7 @@
     box-shadow: none !important;
 }
 
-.contact-button a {
+.contact-button {
     color: var(--primary-color);
     font-size: 1.1rem;
     text-decoration: none;

@@ -45,7 +45,7 @@ body {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   font-family: "Open Sans", sans-serif;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   transition: background 0.3s linear;
 }
 

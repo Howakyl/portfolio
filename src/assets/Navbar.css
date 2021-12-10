@@ -1,0 +1,56 @@
+#sideNav a {
+  position: fixed;
+  /* left: -1px; */
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 0 5px 5px 0;
+  text-align: end;
+  color: var(--main-accent);
+}
+
+#sideNav svg:hover {
+  color: var(--secondary-accent);
+}
+
+.home {
+  top: 20px;
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+.about {
+  top: 140px;
+  background-color: var(--primary-color);
+}
+.my-work {
+  top: 80px;
+  background-color: var(--primary-color);
+}
+.contact {
+  top: 200px;
+  background-color: var(--primary-color);
+}
+.hide {
+  display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  #sideNav a:hover {
+    left: 0;
+  }
+
+  .nav-link:hover > span {
+    display: block;
+  }
+
+  #sideNav a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-accent);
+  }
+
+  .nav-link:hover > svg {
+    display: none;
+  }
+}

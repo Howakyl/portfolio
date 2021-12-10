@@ -1,5 +1,6 @@
 <template>
   <main>
+    <Navbar />
     <ThemeToggle />
     <Hero />
     <Projects />
@@ -10,8 +11,9 @@
 import Hero from "../components/Hero.vue";
 import Projects from "../components/Projects.vue";
 import ThemeToggle from "../components/ThemeToggle.vue";
+import Navbar from "../components/Navbar.vue";
 export default {
-  components: { Hero, Projects, ThemeToggle },
+  components: { Hero, Projects, ThemeToggle, Navbar },
 };
 </script>
 
@@ -49,6 +51,10 @@ body {
   font-family: "Open Sans", sans-serif;
   /* min-height: 100vh; */
   transition: background 0.3s linear;
+}
+
+svg {
+  font-size: 25px;
 }
 
 .container {

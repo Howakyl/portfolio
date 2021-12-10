@@ -13,6 +13,10 @@
   color: var(--main-accent);
 }
 
+.social-nav a:hover {
+  color: var(--secondary-accent);
+}
+
 .social-links {
   display: flex;
   justify-content: space-evenly;

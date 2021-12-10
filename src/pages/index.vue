@@ -1,5 +1,6 @@
 <template>
   <main>
+    <ThemeToggle />
     <Hero />
     <Projects />
   </main>
@@ -8,8 +9,9 @@
 <script>
 import Hero from "../components/Hero.vue";
 import Projects from "../components/Projects.vue";
+import ThemeToggle from "../components/ThemeToggle.vue";
 export default {
-  components: { Hero, Projects },
+  components: { Hero, Projects, ThemeToggle },
 };
 </script>
 
@@ -55,25 +57,25 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-} 
+}
 @media (min-width: 576px) {
   .container {
-      width: 540px;
+    width: 540px;
   }
 }
 @media (min-width: 768px) {
   .container {
-      width: 720px;
+    width: 720px;
   }
 }
 @media (min-width: 992px) {
   .container {
-      width: 960px;
+    width: 960px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-      width: 1140px;
+    width: 1140px;
   }
 }
 </style>

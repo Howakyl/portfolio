@@ -10,9 +10,10 @@
         <span class="typeText h1-accent"></span>
       </p>
       <Button
-      :content="'Contact Me!'"
-      :isLink="true"
-      :href="'#contact'"
+        :content="'Contact Me!'"
+        :isLink="true"
+        :href="'#contact'"
+        class="contact-me-btn"
       >
       </Button>
     </article>
@@ -23,7 +24,7 @@
 <script>
 import "~/assets/Hero.css";
 import Button from "./Button.vue";
-import ArrowIcon from './ArrowIcon.vue'
+import ArrowIcon from "./ArrowIcon.vue";
 export default {
   components: { Button, ArrowIcon },
   data() {

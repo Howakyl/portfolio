@@ -41,7 +41,7 @@
 .h1-period {
   color: var(--main-accent);
   text-shadow: 1px 1px var(--secondary-accent), 1px 1px var(--secondary-accent),
-    1px 1px var(--secondary-accent);
+    1px 1px var(--secondary-accent) !important;
 }
 
 .typeText {
@@ -69,6 +69,10 @@
 
 .accent-2 {
   font-size: 25px;
+}
+
+.contact-me-btn {
+  margin-top: 3rem !important;
 }
 
 @media only screen and (max-width: 650px) {

@@ -1,6 +1,12 @@
 export default {
   head: {
     title: "Kyle Howard - Software Engineer",
+    meta: [
+      {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1",
+      },
+    ],
     link: [
       {
         rel: "stylesheet",
@@ -12,16 +18,16 @@ export default {
       },
       {
         rel: "stylesheet",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
       },
       {
         rel: "icon",
-        type: 'image/x-icon',
-        href: "~/static/favicon.ico"
+        type: "image/x-icon",
+        href: "~/static/favicon.ico",
       },
     ],
   },
   server: {
-    host: '10.0.0.5'
-  }
+    host: "10.0.0.5",
+  },
 };

@@ -6,6 +6,7 @@
     <Hero />
     <AboutMe />
     <Projects />
+    <OtherProjects />
   </main>
 </template>
 
@@ -16,8 +17,9 @@ import ThemeToggle from "../components/ThemeToggle.vue";
 import Navbar from "../components/Navbar.vue";
 import SocialNav from "../components/SocialNav.vue";
 import AboutMe from "../components/AboutMe.vue";
+import OtherProjects from "../components/OtherProjects.vue";
 export default {
-  components: { Hero, Projects, ThemeToggle, Navbar, SocialNav, AboutMe },
+  components: { Hero, Projects, ThemeToggle, Navbar, SocialNav, AboutMe, OtherProjects },
 };
 </script>
 

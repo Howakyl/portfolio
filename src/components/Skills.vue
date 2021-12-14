@@ -6,11 +6,21 @@
       <div class="skill-icon-container">
         <Skill :tooltipText="'React'">
           <React />
-          <Javascript />
+        </Skill>
+        <Skill :tooltipText="'TypeScript'">
           <Typescript />
-          <Css />
-          <Html />
+        </Skill>
+        <Skill :tooltipText="'JavaScript'">
+          <Javascript />
+        </Skill>
+        <Skill :tooltipText="'Node.js'">
           <Node />
+        </Skill>
+        <Skill :tooltipText="'Css'">
+          <Css />
+        </Skill>
+        <Skill :tooltipText="'Html'">
+          <Html />
         </Skill>
       </div>
     </div>
@@ -37,7 +47,7 @@ export default {
     Typescript,
     Css,
     Html,
-    Node
+    Node,
   },
 };
 </script>

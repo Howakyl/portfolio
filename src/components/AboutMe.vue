@@ -1,8 +1,8 @@
 <template>
-  <article class="about-article container">
+  <article id="about" class="about-article container">
     <div>
       <h2 class="about-title">About Me</h2>
-      <div class="line"></div>
+      <LineHeader />
     </div>
     <section class="about-info">
       <div class="about-info-text">
@@ -34,10 +34,10 @@
 
 <script>
 import "~/assets/AboutMe.css";
-import Divider from "./Divider.vue";
+import LineHeader from "./LineHeader.vue";
 import Content from "./Content.vue";
 export default {
-  components: { Content, Divider },
+  components: { Content, LineHeader },
 };
 </script>
 

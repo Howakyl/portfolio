@@ -7,6 +7,7 @@
     <AboutMe />
     <Projects />
     <OtherProjects />
+    <Skills />
   </main>
 </template>
 
@@ -18,8 +19,18 @@ import Navbar from "../components/Navbar.vue";
 import SocialNav from "../components/SocialNav.vue";
 import AboutMe from "../components/AboutMe.vue";
 import OtherProjects from "../components/OtherProjects.vue";
+import Skills from "../components/Skills.vue";
 export default {
-  components: { Hero, Projects, ThemeToggle, Navbar, SocialNav, AboutMe, OtherProjects },
+  components: {
+    Hero,
+    Projects,
+    ThemeToggle,
+    Navbar,
+    SocialNav,
+    AboutMe,
+    OtherProjects,
+    Skills,
+  },
 };
 </script>
 

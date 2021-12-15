@@ -20,6 +20,7 @@
           </section>
           <div class="project-buttons-container">
             <Button
+              v-if="githubLink"
               :content="'Repository'"
               :isLink="true"
               :blank="true"

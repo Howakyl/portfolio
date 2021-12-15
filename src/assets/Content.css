@@ -1,6 +1,7 @@
 .img-div {
   max-width: 500px;
   height: 270px;
+  /* box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19); */
   border-radius: 5px;
   animation: fadeInLeft;
   animation-duration: 1s;
@@ -28,6 +29,7 @@
   animation: fadeInLeft;
   animation-duration: 1s;
   min-height: 270px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
   position: relative;
 }
 

@@ -5,6 +5,13 @@
       <LineHeader />
     </div>
     <Project
+      :title="'Cheerlending'"
+      :description="''"
+      :techUsed="cheerlendingTech"
+      :projectImage="'cheerlending.png'"
+      :visitLink="'https://alpha.californiaratereduction.com/onboarding'"
+    />
+    <Project
       :title="'Fishily'"
       :description="'Fishily is an app made to help new fishermen find places to catch fish, and for experienced anglers to show off their catches. Users can create profiles, upload posts with optional coordinates, and leave comments.'"
       :techUsed="fishilyTech"
@@ -50,6 +57,12 @@ export default {
   },
   data() {
     return {
+      cheerlendingTech: [
+        "React",
+        "Django",
+        "Firebase",
+        "Google Analytics"
+      ],
       fishilyTech: [
         "React",
         "Typescript",

@@ -8,6 +8,7 @@
     <Projects />
     <OtherProjects />
     <Skills />
+    <ContactMe />
   </main>
 </template>
 
@@ -20,6 +21,7 @@ import SocialNav from "../components/SocialNav.vue";
 import AboutMe from "../components/AboutMe.vue";
 import OtherProjects from "../components/OtherProjects.vue";
 import Skills from "../components/Skills.vue";
+import ContactMe from "../components/ContactMe.vue";
 export default {
   components: {
     Hero,
@@ -30,6 +32,7 @@ export default {
     AboutMe,
     OtherProjects,
     Skills,
+    ContactMe,
   },
 };
 </script>

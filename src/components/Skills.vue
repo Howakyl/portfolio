@@ -31,6 +31,30 @@
         <Skill :tooltipText="'Node.js'">
           <Node />
         </Skill>
+        <Skill :tooltipText="'Firebase'">
+          <Firebase />
+        </Skill>
+        <Skill :tooltipText="'Graphql'">
+          <Graphql />
+        </Skill>
+        <Skill :tooltipText="'Heroku'">
+          <Heroku />
+        </Skill>
+        <Skill :tooltipText="'Jquery'">
+          <Jquery />
+        </Skill>
+        <Skill :tooltipText="'MongoDb'">
+          <MongoDb />
+        </Skill>
+        <Skill :tooltipText="'Express.js'">
+          <Express />
+        </Skill>
+        <Skill :tooltipText="'Tailwind.css'">
+          <Tailwind />
+        </Skill>
+        <Skill :tooltipText="'Bootstrap.css'">
+          <Bootstrap />
+        </Skill>
         <Skill :tooltipText="'Css'">
           <Css />
         </Skill>
@@ -57,6 +81,14 @@ import Nuxt from "./svg/skills/Nuxt.vue";
 import Python from "./svg/skills/Python.vue";
 import Django from "./svg/skills/Django.vue";
 import PostgreSql from "./svg/skills/PostgreSql.vue";
+import Express from "./svg/skills/Express.vue";
+import Firebase from "./svg/skills/Firebase.vue";
+import Graphql from "./svg/skills/Graphql.vue";
+import Heroku from "./svg/skills/Heroku.vue";
+import Jquery from "./svg/skills/Jquery.vue";
+import MongoDb from "./svg/skills/MongoDb.vue";
+import Tailwind from "./svg/skills/Tailwind.vue";
+import Bootstrap from "./svg/skills/Bootstrap.vue";
 
 export default {
   components: {
@@ -73,6 +105,14 @@ export default {
     Python,
     Django,
     PostgreSql,
+    Express,
+    Firebase,
+    Graphql,
+    Heroku,
+    Jquery,
+    MongoDb,
+    Tailwind,
+    Bootstrap,
   },
 };
 </script>

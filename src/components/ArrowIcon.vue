@@ -1,6 +1,6 @@
 <template>
   <div class="home-arrow-container">
-    <a href="#my-work" class="home-arrow">
+    <a href="#about" class="home-arrow">
       <i class="fas fa-arrow-circle-down"></i>
     </a>
   </div>

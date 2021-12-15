@@ -1,9 +1,7 @@
 .about-article {
   margin-top: 6rem;
 }
-.about-title {
-  margin-bottom: 5px;
-}
+
 .about-info {
   display: flex;
   justify-content: space-evenly;

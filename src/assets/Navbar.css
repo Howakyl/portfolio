@@ -17,20 +17,16 @@
 
 .home {
   top: 20px;
-  background-color: var(--primary-color);
   padding: 20px;
 }
 .about {
-  top: 140px;
-  background-color: var(--primary-color);
-}
-.my-work {
   top: 80px;
-  background-color: var(--primary-color);
+}
+.my-work-nav {
+  top: 140px;
 }
 .contact {
   top: 200px;
-  background-color: var(--primary-color);
 }
 .hide {
   display: none;
@@ -46,7 +42,6 @@
   }
 
   #sideNav a:hover {
-    background-color: var(--primary-color);
     color: var(--secondary-accent);
   }
 

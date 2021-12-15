@@ -9,6 +9,7 @@
 
 .other-projects-container h3 {
   text-align: center;
+  word-break: break-word;
   color: var(--main-accent);
   font-size: 1.75rem;
 }

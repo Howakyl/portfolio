@@ -4,7 +4,7 @@
       <Home />
       <span class="hide">Home</span>
     </a>
-    <a href="#my-work" class="my-work nav-link">
+    <a href="#my-work" class="my-work-nav nav-link">
       <Code />
       <span class="hide">Projects</span>
     </a>

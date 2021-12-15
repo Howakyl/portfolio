@@ -2,13 +2,15 @@
   <main>
     <Navbar />
     <SocialNav />
-    <ThemeToggle />
-    <Hero />
-    <AboutMe />
-    <Projects />
-    <OtherProjects />
-    <Skills />
-    <ContactMe />
+    <div class="entire-container">
+      <ThemeToggle />
+      <Hero />
+      <AboutMe />
+      <Projects />
+      <OtherProjects />
+      <Skills />
+      <ContactMe />
+    </div>
   </main>
 </template>
 
@@ -63,13 +65,14 @@ export default {
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 body {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   font-family: "Open Sans", sans-serif;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   transition: background 0.3s linear;
 }
 
@@ -103,5 +106,12 @@ svg {
   .container {
     width: 1140px;
   }
+}
+
+@media (max-width: 620px) {
+  .entire-container {
+    margin-left: 2.2rem;
+    margin-right:.5rem;
+}
 }
 </style>

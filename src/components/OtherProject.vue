@@ -7,10 +7,10 @@
         </h4>
       </a>
       <div>
-        <a v-if="githubLink" :href="githubLink" target="_blank">
+        <a @click="visitedRepo"  v-if="githubLink" :href="githubLink" target="_blank">
           <i class="fab fa-github"></i>
         </a>
-        <a v-if="visitLink" :href="visitLink" target="_blank">
+        <a @click="visitedSite" v-if="visitLink" :href="visitLink" target="_blank">
           <i class="fas fa-external-link-alt"></i>
         </a>
       </div>
@@ -20,7 +20,7 @@
     </p>
     <div class="techUsed-container">
       <p v-for="item in techUsed" :key="item">
-        <Divider v-if="item !== techUsed[0]"/>
+        <Divider v-if="item !== techUsed[0]" />
         {{ item }}
       </p>
     </div>
@@ -42,6 +42,18 @@ export default {
     projectImage: String,
     githubLink: String,
     visitLink: String,
+  },
+  methods: {
+    visitedRepo() {
+      this.$gtag.event("repo_visited", {
+        name: `${this.title} repo`,
+      });
+    },
+    visitedSite() {
+      this.$gtag.event("site_visited", {
+        name: `${this.title} site visited`,
+      });
+    },
   },
 };
 </script>

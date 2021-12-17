@@ -1,0 +1,29 @@
+.about-title {
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight: 500;
+  color: var(--main-accent);
+  font-family: var(--title-font);
+  display: inline-block;
+}
+
+.my-work-title {
+  margin-bottom: 1rem;
+}
+
+.my-work {
+  top: 80px;
+  background-color: var(--primary-color);
+}
+
+#my-work {
+  padding-top: 150px;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+  #my-work {
+    padding-top: 80px;
+  }
+}

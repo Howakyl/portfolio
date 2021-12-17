@@ -15,6 +15,11 @@
         :description="`Utilize Twilio's API to text the bot and recieve some cat pictures,and inspirational quotes!`"
         :techUsed="smsBot"
       />
+      <OtherProject
+        :title="'eFinalDate'"
+        :description="`eFinalDate simplifies the monument making process, by utilizing the ''MagicCard'' to eliminate the need for messy rubbings. Just take a photo with the card, and the image is sized and aligned perfectly for your editing software!`"
+        :techUsed="eFinalDate"
+      />
     </section>
   </div>
 </template>
@@ -32,6 +37,7 @@ export default {
     return {
       repoFinder: ["React", "Javascript", "CSS3", "HTML5"],
       smsBot: ["Python", "Flask", "Twilio"],
+      eFinalDate: ["Vue", "Nuxt.js", "AWS", "Tailwind.css"]
     };
   },
 };

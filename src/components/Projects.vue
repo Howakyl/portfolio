@@ -6,7 +6,7 @@
     </div>
     <Project
       :title="'Cheerlending'"
-      :description="''"
+      :description="'Cheerlending is an app made to help California residents find a lower interest rate on their mortgage. I was focused on the frontend features of this project along with the team at XLR8, as well as creating and managing analytics features for our client.'"
       :techUsed="cheerlendingTech"
       :projectImage="'cheerlending.png'"
       :visitLink="'https://alpha.californiaratereduction.com/onboarding'"
@@ -60,8 +60,11 @@ export default {
       cheerlendingTech: [
         "React",
         "Django",
+        "Python",
+        "SCSS",
         "Firebase",
-        "Google Analytics"
+        "Google Analytics",
+        "HTML5"
       ],
       fishilyTech: [
         "React",

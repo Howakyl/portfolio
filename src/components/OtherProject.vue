@@ -7,7 +7,7 @@
         </h4>
       </a>
       <div>
-        <a :href="githubLink" target="_blank">
+        <a v-if="githubLink" :href="githubLink" target="_blank">
           <i class="fab fa-github"></i>
         </a>
         <a v-if="visitLink" :href="visitLink" target="_blank">
@@ -20,8 +20,8 @@
     </p>
     <div class="techUsed-container">
       <p v-for="item in techUsed" :key="item">
+        <Divider v-if="item !== techUsed[0]"/>
         {{ item }}
-        <Divider />
       </p>
     </div>
   </div>

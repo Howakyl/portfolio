@@ -14,8 +14,8 @@
           <h5 class="tech-used">Technologies Used:</h5>
           <section class="tech-used-items">
             <p v-for="item in techUsed" :key="item">
+              <Divider v-if="item !== techUsed[0]" />
               {{ item }}
-              <Divider />
             </p>
           </section>
           <div class="project-buttons-container">

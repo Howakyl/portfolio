@@ -22,9 +22,10 @@ export default {
       },
     ],
   },
-  server: {
-    host: "10.0.0.5",
-  },
+  // server: {
+  //   host: "10.0.0.5",
+  // },
+  target: 'static',
   plugins: [
     {
       src: './plugins/analytics.js',

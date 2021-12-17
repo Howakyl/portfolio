@@ -26,6 +26,9 @@ export default {
   //   host: "10.0.0.5",
   // },
   target: 'static',
+  generate: {
+    dir: 'src'
+  },
   plugins: [
     {
       src: './plugins/analytics.js',

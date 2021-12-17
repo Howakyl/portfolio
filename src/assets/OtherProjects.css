@@ -1,0 +1,43 @@
+.project-container {
+  margin-bottom: 13rem;
+}
+
+.other-projects-container {
+  flex-direction: column;
+  display: flex;
+}
+
+.other-projects-container h3 {
+  text-align: center;
+  word-break: break-word;
+  color: var(--main-accent);
+  font-size: 1.75rem;
+}
+
+.other-projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.other-projects h4 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+.other-projects p {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-container {
+    margin-left: 1em;
+  }
+}

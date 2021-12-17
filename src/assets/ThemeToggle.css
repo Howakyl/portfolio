@@ -1,0 +1,42 @@
+#slide {
+  transform: translateX(15px);
+  transition: transform 500ms ease;
+  -moz-transition: transform 500ms ease;
+  -ms-transition: transform 500ms ease;
+  -o-transition: transform 500ms ease;
+  -webkit-transition: transform 500ms ease;
+  height: 50px;
+}
+
+.night-theme {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  animation: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.night-theme i {
+  color: rgb(235, 235, 0);
+  cursor: pointer;
+  background-color: rgb(49, 49, 49);
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+}
+
+.theme-switch input {
+  display: none;
+}

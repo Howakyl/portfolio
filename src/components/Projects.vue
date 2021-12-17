@@ -61,8 +61,8 @@ export default {
         "React",
         "Django",
         "Python",
-        "SCSS",
         "Firebase",
+        "Sass",
         "Google Analytics",
         "HTML5"
       ],

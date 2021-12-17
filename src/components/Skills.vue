@@ -49,6 +49,9 @@
         <Skill :tooltipText="'Express.js'">
           <Express />
         </Skill>
+        <Skill :tooltipText="'Sass'">
+          <Sass />
+        </Skill>
         <Skill :tooltipText="'Tailwind.css'">
           <Tailwind />
         </Skill>
@@ -89,6 +92,7 @@ import Jquery from "./svg/skills/Jquery.vue";
 import MongoDb from "./svg/skills/MongoDb.vue";
 import Tailwind from "./svg/skills/Tailwind.vue";
 import Bootstrap from "./svg/skills/Bootstrap.vue";
+import Sass from "./svg/skills/Sass.vue";
 
 export default {
   components: {
@@ -113,6 +117,7 @@ export default {
     MongoDb,
     Tailwind,
     Bootstrap,
+    Sass
   },
 };
 </script>

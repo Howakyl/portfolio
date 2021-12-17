@@ -19,22 +19,29 @@
             </p>
           </section>
           <div class="project-buttons-container">
-            <Button
-              v-if="githubLink"
-              :content="'Repository'"
-              :isLink="true"
-              :blank="true"
-              :href="githubLink"
-            >
-              <i class="fab fa-github gh-portfolio-btn"></i>
-            </Button>
-            <Button
-              class="site-link"
-              :content="'Visit'"
-              :isLink="true"
-              :blank="true"
-              :href="visitLink"
-            />
+            <div @click="visitedRepo">
+              <Button
+                v-if="githubLink"
+                :content="'Repository'"
+                :isLink="true"
+                :blank="true"
+                :href="githubLink"
+              >
+                <i
+                  @click="visitedRepo"
+                  class="fab fa-github gh-portfolio-btn"
+                ></i>
+              </Button>
+            </div>
+            <div @click="visitedSite">
+              <Button
+                class="site-link"
+                :content="'Visit'"
+                :isLink="true"
+                :blank="true"
+                :href="visitLink"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -60,6 +67,18 @@ export default {
     projectImage: String,
     githubLink: String,
     visitLink: String,
+  },
+  methods: {
+    visitedRepo() {
+      this.$gtag.event("repo_visited", {
+        name: `${this.title} repo`,
+      });
+    },
+    visitedSite() {
+      this.$gtag.event("site_visited", {
+        name: `${this.title} site visited`,
+      });
+    },
   },
 };
 </script>

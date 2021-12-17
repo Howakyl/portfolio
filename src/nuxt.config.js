@@ -25,4 +25,10 @@ export default {
   server: {
     host: "10.0.0.5",
   },
+  plugins: [
+    {
+      src: './plugins/analytics.js',
+      mode: 'client'
+    }
+  ]
 };

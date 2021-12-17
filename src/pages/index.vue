@@ -36,6 +36,14 @@ export default {
     Skills,
     ContactMe,
   },
+  methods: {
+    enterPage () {
+      this.$gtag.event('enter')
+    }
+  },
+  mounted() {
+    this.enterPage();
+  }
 };
 </script>
 

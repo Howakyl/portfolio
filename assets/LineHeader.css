@@ -1,0 +1,9 @@
+.line {
+  background-color: var(--secondary-accent);
+  width: 18rem;
+  margin-bottom: 12px;
+  margin-left: 10px;
+  height: 1px;
+  display: inline-block;
+  align-self: center;
+}

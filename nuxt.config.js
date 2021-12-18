@@ -1,6 +1,10 @@
 export default {
+  target: "static",
   head: {
     title: "Kyle Howard - Software Engineer",
+    htmlAttrs: {
+      lang: "en",
+    },
     meta: [
       {
         name: "viewport",
@@ -25,14 +29,10 @@ export default {
   // server: {
   //   host: "10.0.0.5",
   // },
-  target: 'static',
-  generate: {
-    dir: 'src'
-  },
   plugins: [
     {
-      src: './plugins/analytics.js',
-      mode: 'client'
-    }
-  ]
+      src: "./plugins/analytics.js",
+      mode: "client",
+    },
+  ],
 };

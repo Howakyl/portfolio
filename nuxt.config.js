@@ -1,5 +1,6 @@
 export default {
   target: "static",
+  components: true,
   generate: {
     fallback: true
   },

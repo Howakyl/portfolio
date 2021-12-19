@@ -9,9 +9,6 @@ export default {
       },
     ],
   ],
-  generate: {
-    fallback: true,
-  },
   head: {
     title: "Kyle Howard - Software Engineer",
     htmlAttrs: {

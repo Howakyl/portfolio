@@ -1,9 +1,14 @@
 export default {
   target: "static",
   components: true,
-  generate: {
-    fallback: true
-  },
+  buildModules: [
+    [
+      "@nuxt/image",
+      {
+        provider: "static",
+      },
+    ],
+  ],
   head: {
     title: "Kyle Howard - Software Engineer",
     htmlAttrs: {

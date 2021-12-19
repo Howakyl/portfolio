@@ -1,3 +1,3 @@
 <template>
-  <img src="~/assets/images/nodejs.webP" alt="" class="skill-icon" />
+  <nuxt-img src="images/nodejs.webP" alt="" class="skill-icon" />
 </template>

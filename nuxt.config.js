@@ -1,5 +1,8 @@
 export default {
   target: "static",
+  generate: {
+    fallback: true
+  },
   head: {
     title: "Kyle Howard - Software Engineer",
     htmlAttrs: {

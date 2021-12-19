@@ -6,6 +6,7 @@
           @click="clickedGithub"
           href="https://github.com/Howakyl"
           target="_blank"
+          rel="noopener"
         >
           <i class="fab fa-github"></i>
         </a>
@@ -15,6 +16,7 @@
           @click="clickedLinkedIn"
           href="https://www.linkedin.com/in/kyle-howard-b365841ab/"
           target="_blank"
+          rel="noopener"
         >
           <i class="fab fa-linkedin-in"></i>
         </a>

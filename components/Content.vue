@@ -1,6 +1,6 @@
 <template>
   <div class="img-div">
-    <a :href="imageLink" target="_blank">
+    <a :href="imageLink" target="_blank" rel="noopener">
       <img v-if="imageSrc" :src="require(`~/assets/images/${imageSrc}`)" :alt="imageSrc" />
     </a>
     <div class="img-border"></div>

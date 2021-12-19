@@ -9,8 +9,10 @@
       :href="href"
       class="btn contact-button"
       :target="blank ? '_blank' : ''"
+      :rel="blank ? 'noopener': ''"
       ><slot />{{ content }}</a
     >
+      <!-- rel="noopener" -->
   </div>
 </template>
 

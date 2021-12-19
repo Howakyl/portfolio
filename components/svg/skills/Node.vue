@@ -1,3 +1,3 @@
 <template>
-  <img src="~/assets/images/nodejs.png" alt="" class="skill-icon" />
+  <img src="~/assets/images/nodejs.webP" alt="" class="skill-icon" />
 </template>

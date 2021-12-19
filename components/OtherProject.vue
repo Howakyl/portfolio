@@ -1,16 +1,16 @@
 <template>
   <div class="other-projects-folder">
     <div class="other-projects-header">
-      <a :href="githubLink" target="_blank" class="other-link">
+      <a :href="githubLink" target="_blank" rel="noopener" class="other-link">
         <h4>
           {{ title }}
         </h4>
       </a>
       <div>
-        <a @click="visitedRepo"  v-if="githubLink" :href="githubLink" target="_blank">
+        <a @click="visitedRepo"  v-if="githubLink" :href="githubLink" target="_blank" rel="noopener">
           <i class="fab fa-github"></i>
         </a>
-        <a @click="visitedSite" v-if="visitLink" :href="visitLink" target="_blank">
+        <a @click="visitedSite" v-if="visitLink" :href="visitLink" target="_blank" rel="noopener">
           <i class="fas fa-external-link-alt"></i>
         </a>
       </div>

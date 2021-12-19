@@ -27,17 +27,14 @@
           smooth bass lines to clear my head!
         </p>
       </div>
-      <Content :imageSrc="'me.png'" class="me-img-div" />
+      <LazyContent :imageSrc="'me.webP'" class="me-img-div" />
     </section>
   </article>
 </template>
 
 <script>
 import "~/assets/AboutMe.css";
-import LineHeader from "./LineHeader.vue";
-import Content from "./Content.vue";
 export default {
-  components: { Content, LineHeader },
 };
 </script>
 

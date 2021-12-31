@@ -8,14 +8,14 @@
       :title="'Cheerlending'"
       :description="'Cheerlending is an app made to help California residents find a lower interest rate on their mortgage. I was focused on the frontend features of this project along with the team at XLR8, as well as creating and managing analytics features for our client.'"
       :techUsed="cheerlendingTech"
-      :projectImage="'cheerlending.png'"
+      :projectImage="'cheerlending.webP'"
       :visitLink="'https://alpha.californiaratereduction.com/onboarding'"
     />
     <Project
       :title="'Fishily'"
       :description="'Fishily is an app made to help new fishermen find places to catch fish, and for experienced anglers to show off their catches. Users can create profiles, upload posts with optional coordinates, and leave comments.'"
       :techUsed="fishilyTech"
-      :projectImage="'fishily-map.png'"
+      :projectImage="'fishily-map.webP'"
       :visitLink="'https://fishily.netlify.app/'"
       :githubLink="'https://github.com/Howakyl/fishily-client'"
     />
@@ -23,7 +23,7 @@
       :title="'Wayfarer'"
       :description="`Wayfarer is a travel app where users can create profiles, make posts showing off their favorite travel destinations, and comment on other users' posts. Full CRUD on Users, Posts, and Comments.`"
       :techUsed="wayfarerTech"
-      :projectImage="'wayfarer.png'"
+      :projectImage="'wayfarer.webP'"
       :visitLink="'http://wayfarer-kemt.herokuapp.com/'"
       :githubLink="'https://github.com/Howakyl/wayfarer'"
     />
@@ -31,7 +31,7 @@
       :title="'myTrax'"
       :description="'Create, share, and listen to your own custom song (and video) playlists all in one place, on myTrax! By utilzing YouTube or Spotify APIs, users can listen to, upload, create, and delete playlists.'"
       :techUsed="myTraxTech"
-      :projectImage="'myTrax.png'"
+      :projectImage="'myTrax.webP'"
       :visitLink="'https://enigmatic-cliffs-18729.herokuapp.com/'"
       :githubLink="'https://github.com/Howakyl/myTrax'"
     />
@@ -39,7 +39,7 @@
       :title="'Tamagotchi'"
       :description="'A browser game based on the 1996 hit handheld game! Take care of your pet, by feeding, playing, and letting them rest.'"
       :techUsed="wayfarerTech"
-      :projectImage="'Tamagotchi.png'"
+      :projectImage="'Tamagotchi.webP'"
       :visitLink="'https://pages.git.generalassemb.ly/Howakyl96/project-0-tomagotchi/'"
       :githubLink="'https://github.com/Howakyl/Tamagotchi-Life'"
     />

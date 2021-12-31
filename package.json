@@ -10,5 +10,8 @@
   "dependencies": {
     "nuxt": "^2.15.8",
     "vue-gtag": "^1.16.1"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^0.6.0"
   }
 }

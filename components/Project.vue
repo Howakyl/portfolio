@@ -1,6 +1,6 @@
 <template>
   <div class="container project-container">
-    <Content :imageLink="visitLink" :imageSrc="projectImage" />
+    <LazyContent :imageLink="visitLink" :imageSrc="projectImage" />
     <div>
       <div class="project-info">
         <div>
@@ -51,15 +51,7 @@
 
 <script>
 import "~/assets/Project.css";
-import Divider from "./Divider.vue";
-import Content from "./Content.vue";
-import Button from "./Button.vue";
 export default {
-  components: {
-    Divider,
-    Content,
-    Button,
-  },
   props: {
     title: String,
     description: String,

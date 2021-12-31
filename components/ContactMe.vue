@@ -6,6 +6,7 @@
         class="contact-link"
         href="mailto:howakyl@gmail.com"
         target="_blank"
+        rel="noopener"
         @click="clickedEmail"
         >howakyl@gmail.com</a
       >
@@ -16,6 +17,7 @@
         @click="clickedResume"
         class="contact-link"
         target="_blank"
+        rel="noopener"
         href="https://docs.google.com/document/d/1MAt_-fCumu1AE1B0IdEkoF5WKIZOSOue-u8qHDhUWug/edit?usp=sharing"
         >Resume</a
       >
@@ -26,6 +28,7 @@
           <a
             href="https://github.com/Howakyl"
             target="_blank"
+            rel="noopener"
             @click="clickedGithub"
           >
             <i class="fab fa-github"></i>
@@ -35,6 +38,7 @@
           <a
             href="https://www.linkedin.com/in/kyle-howard-b365841ab/"
             target="_blank"
+            rel="noopener"
             @click="clickedLinkedIn"
           >
             <i class="fab fa-linkedin-in"></i>

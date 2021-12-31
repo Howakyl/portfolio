@@ -1,41 +1,21 @@
 <template>
   <main>
-    <Navbar />
-    <SocialNav />
+    <LazyNavbar />
+    <LazySocialNav />
     <div class="entire-container">
-      <ThemeToggle />
-      <Hero />
-      <AboutMe />
-      <Projects />
-      <OtherProjects />
-      <Skills />
-      <ContactMe />
+      <LazyThemeToggle />
+      <LazyHero />
+      <LazyAboutMe />
+      <LazyProjects />
+      <LazyOtherProjects />
+      <LazySkills />
+      <LazyContactMe />
     </div>
   </main>
 </template>
 
 <script>
-import Hero from "../components/Hero.vue";
-import Projects from "../components/Projects.vue";
-import ThemeToggle from "../components/ThemeToggle.vue";
-import Navbar from "../components/Navbar.vue";
-import SocialNav from "../components/SocialNav.vue";
-import AboutMe from "../components/AboutMe.vue";
-import OtherProjects from "../components/OtherProjects.vue";
-import Skills from "../components/Skills.vue";
-import ContactMe from "../components/ContactMe.vue";
 export default {
-  components: {
-    Hero,
-    Projects,
-    ThemeToggle,
-    Navbar,
-    SocialNav,
-    AboutMe,
-    OtherProjects,
-    Skills,
-    ContactMe,
-  },
   methods: {
     enterPage () {
       this.$gtag.event('enter')

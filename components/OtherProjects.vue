@@ -18,6 +18,7 @@
       <OtherProject
         :title="'eFinalDate'"
         :description="`eFinalDate simplifies the monument making process, by utilizing the ''MagicCard'' to eliminate the need for messy rubbings. Just take a photo with the card, and the image is sized and aligned perfectly for your editing software!`"
+        :visitLink="'https://beta.efinaldate.com/'"
         :techUsed="eFinalDate"
       />
     </section>

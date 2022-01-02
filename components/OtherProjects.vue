@@ -17,6 +17,7 @@
       />
       <OtherProject
         :title="'eFinalDate'"
+        :visitLink="'https://beta.efinaldate.com/'"
         :description="`Built with the team at XLR8, eFinalDate simplifies the monument making process. By utilizing the ''MagicCard'' to eliminate the need for messy rubbings. Just take a photo with the card, and the image is sized and aligned perfectly for your editing software!`"
         :techUsed="eFinalDate"
       />

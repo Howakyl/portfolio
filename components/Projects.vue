@@ -15,7 +15,7 @@
       :title="'Fishily'"
       :description="'Fishily is an app made to help new fishermen find places to catch fish, and for experienced anglers to show off their catches. Users can create profiles, upload posts with optional coordinates, and leave comments.'"
       :techUsed="fishilyTech"
-      :projectImage="'fishily-map.webP'"
+      :projectImage="'fishily-map.png'"
       :visitLink="'https://fishily.netlify.app/'"
       :githubLink="'https://github.com/Howakyl/fishily-client'"
     />
@@ -31,7 +31,7 @@
       :title="'myTrax'"
       :description="'Create, share, and listen to your own custom song (and video) playlists all in one place, on myTrax! By utilzing YouTube or Spotify APIs, users can listen to, upload, create, and delete playlists.'"
       :techUsed="myTraxTech"
-      :projectImage="'myTrax.webP'"
+      :projectImage="'myTrax.png'"
       :visitLink="'https://enigmatic-cliffs-18729.herokuapp.com/'"
       :githubLink="'https://github.com/Howakyl/myTrax'"
     />

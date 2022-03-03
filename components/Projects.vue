@@ -23,7 +23,7 @@
       :title="'Wayfarer'"
       :description="`Wayfarer is a travel app where users can create profiles, make posts showing off their favorite travel destinations, and comment on other users' posts. Full CRUD on Users, Posts, and Comments.`"
       :techUsed="wayfarerTech"
-      :projectImage="'wayfarer.webP'"
+      :projectImage="'wayfarer.png'"
       :visitLink="'http://wayfarer-kemt.herokuapp.com/'"
       :githubLink="'https://github.com/Howakyl/wayfarer'"
     />
@@ -38,7 +38,7 @@
     <Project
       :title="'Tamagotchi'"
       :description="'A browser game based on the 1996 hit handheld game! Take care of your pet, by feeding, playing, and letting them rest.'"
-      :techUsed="wayfarerTech"
+      :techUsed="tamagotchiTech"
       :projectImage="'Tamagotchi.webP'"
       :visitLink="'https://pages.git.generalassemb.ly/Howakyl96/project-0-tomagotchi/'"
       :githubLink="'https://github.com/Howakyl/Tamagotchi-Life'"

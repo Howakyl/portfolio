@@ -29,21 +29,42 @@ export default {
 
 <style>
 :root {
-  --primary-color: #ededed;
+  --primary-color: #d9dbf1;
+  --secondary-color: #0e273c;
+  --main-accent: #4a306d;
+  --secondary-accent: #a167a5;
+  --text-accent: #2978A0;
+  /* --primary-color: #ededed;
   --secondary-color: #2e2d2d;
   --main-accent: #295ea4;
   --secondary-accent: #f0a32f;
-  --text-accent: #4d4d4d;
+  --text-accent: #4d4d4d; */
   --title-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-[data-theme="dark"] {
+
+/* 
+0e273c prussian blue
+4a306d spanish violet
+a167a5 pearly urple
+D9DBF1 lavender web
+CBE896 yellow green
+*/
+
+/* [data-theme="dark"] {
   --primary-color: #1b1b1b;
   --secondary-color: #ededed;
   --main-accent: #2b62aa;
   --secondary-accent: #f0a32f;
   --text-accent: #c5c5c5;
+} */
+[data-theme="dark"] {
+  --primary-color: #0e273c;
+  --secondary-color: #d9dbf1;
+  --main-accent: #a167a5;
+  --secondary-accent: #cbe896;
+  --text-accent: #4a306d;
 }
 
 * {

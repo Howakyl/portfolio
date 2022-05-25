@@ -16,10 +16,11 @@
         :techUsed="smsBot"
       />
       <OtherProject
-        :title="'eFinalDate'"
-        :visitLink="'https://beta.efinaldate.com/'"
-        :description="`Built with the team at XLR8, eFinalDate simplifies the monument making process. By utilizing the ''MagicCard'' to eliminate the need for messy rubbings. Just take a photo with the card, and the image is sized and aligned perfectly for your editing software!`"
-        :techUsed="eFinalDate"
+        :visitLink="'https://pages.git.generalassemb.ly/Howakyl96/project-0-tomagotchi/'"
+        :githubLink="'https://github.com/Howakyl/Tamagotchi-Life'"
+        :title="'Tamagotchi'"
+        :description="'A browser game based on the 1996 hit handheld game! Take care of your pet, by feeding, playing, and letting them rest.'"
+        :techUsed="tamagotchiTech"
       />
     </section>
   </div>
@@ -38,7 +39,7 @@ export default {
     return {
       repoFinder: ["React", "Javascript", "CSS3", "HTML5"],
       smsBot: ["Python", "Flask", "Twilio"],
-      eFinalDate: ["Vue", "Nuxt.js", "AWS", "Tailwind.css"]
+      tamagotchiTech: ["jQuery", "Typescript", "CSS3", "HTML5"],
     };
   },
 };

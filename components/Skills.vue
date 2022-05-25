@@ -19,51 +19,54 @@
         <Skill :tooltipText="'JavaScript'">
           <Javascript />
         </Skill>
+        <Skill :tooltipText="'Swift'">
+          <Swift />
+        </Skill>
         <Skill :tooltipText="'Python'">
           <Python />
         </Skill>
         <Skill :tooltipText="'Django'">
           <Django />
         </Skill>
-        <Skill :tooltipText="'PostgreSQL'">
+        <!-- <Skill :tooltipText="'PostgreSQL'">
           <PostgreSql />
-        </Skill>
+        </Skill> -->
         <Skill :tooltipText="'Node.js'">
           <Node />
         </Skill>
         <Skill :tooltipText="'Firebase'">
           <Firebase />
         </Skill>
-        <Skill :tooltipText="'Graphql'">
+        <!-- <Skill :tooltipText="'Graphql'">
           <Graphql />
-        </Skill>
-        <Skill :tooltipText="'Heroku'">
+        </Skill> -->
+        <!-- <Skill :tooltipText="'Heroku'">
           <Heroku />
-        </Skill>
+        </Skill> -->
         <Skill :tooltipText="'Jquery'">
           <Jquery />
         </Skill>
         <Skill :tooltipText="'MongoDb'">
           <MongoDb />
         </Skill>
-        <Skill :tooltipText="'Express.js'">
+        <!-- <Skill :tooltipText="'Express.js'">
           <Express />
-        </Skill>
+        </Skill> -->
         <Skill :tooltipText="'Sass'">
           <Sass />
         </Skill>
         <Skill :tooltipText="'Tailwind.css'">
           <Tailwind />
         </Skill>
-        <Skill :tooltipText="'Bootstrap.css'">
+        <!-- <Skill :tooltipText="'Bootstrap.css'">
           <Bootstrap />
-        </Skill>
-        <Skill :tooltipText="'Css'">
+        </Skill> -->
+        <!-- <Skill :tooltipText="'Css'">
           <Css />
         </Skill>
         <Skill :tooltipText="'Html'">
           <Html />
-        </Skill>
+        </Skill> -->
       </div>
     </div>
   </section>
@@ -93,6 +96,7 @@ import MongoDb from "./svg/skills/MongoDb.vue";
 import Tailwind from "./svg/skills/Tailwind.vue";
 import Bootstrap from "./svg/skills/Bootstrap.vue";
 import Sass from "./svg/skills/Sass.vue";
+import Swift from "./svg/skills/Swift.vue";
 
 export default {
   components: {
@@ -117,7 +121,8 @@ export default {
     MongoDb,
     Tailwind,
     Bootstrap,
-    Sass
+    Sass,
+    Swift,
   },
 };
 </script>

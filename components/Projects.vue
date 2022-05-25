@@ -4,6 +4,13 @@
       <h2 id="my-work" class="about-title">My Work</h2>
       <LineHeader />
     </div>
+    <Project 
+      :title="'eFinalDate'"
+      :description="`Built with the team at XLR8, eFinalDate simplifies the monument making process. By utilizing the ''MagicCard'' to eliminate the need for messy rubbings. Just take a photo with the card, and the image is sized and aligned perfectly for your editing software! I managed the creation of the Nuxt.js frontend, and the iOS companion app.`"
+      :techUsed="eFinalDate"
+      :projectImage="'efd3.png'"
+      :visitLink="'https://alpha-efinaldate.netlify.app/'"
+    />
     <Project
       :title="'Cheerlending'"
       :description="'Cheerlending is an app made to help California residents find a lower interest rate on their mortgage. I was focused on the frontend features of this project along with the team at XLR8, as well as creating and managing analytics features for our client.'"
@@ -34,14 +41,6 @@
       :projectImage="'myTrax.png'"
       :visitLink="'https://enigmatic-cliffs-18729.herokuapp.com/'"
       :githubLink="'https://github.com/Howakyl/myTrax'"
-    />
-    <Project
-      :title="'Tamagotchi'"
-      :description="'A browser game based on the 1996 hit handheld game! Take care of your pet, by feeding, playing, and letting them rest.'"
-      :techUsed="tamagotchiTech"
-      :projectImage="'Tamagotchi.webP'"
-      :visitLink="'https://pages.git.generalassemb.ly/Howakyl96/project-0-tomagotchi/'"
-      :githubLink="'https://github.com/Howakyl/Tamagotchi-Life'"
     />
   </section>
 </template>
@@ -103,6 +102,7 @@ export default {
         "HTML5",
       ],
       tamagotchiTech: ["jQuery", "Typescript", "CSS3", "HTML5"],
+      eFinalDate: ["Vue", "Nuxt.js", "Swift", "AWS", "Tailwind.css"]
     };
   },
 };

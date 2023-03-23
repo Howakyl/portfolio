@@ -3,8 +3,8 @@
     <ul class="social-nav">
       <li>
         <a
-          @click="clickedGithub"
-          href="https://github.com/Howakyl"
+          @click="clickedGitlab"
+          href="https://gitlab.com/Howakyl"
           target="_blank"
           rel="noopener"
         >
@@ -45,6 +45,9 @@ export default {
     },
     clickedLinkedIn() {
       this.$gtag.event("LinkedIn Visit");
+    },
+    clickedGitlab() {
+      this.$gtag.event("gitlab Visit");
     },
   },
 };

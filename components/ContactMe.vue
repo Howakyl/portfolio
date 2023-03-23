@@ -25,6 +25,16 @@
     <div>
       <ul class="social-links">
         <li>
+        <a
+          @click="clickedGitlab"
+          href="https://gitlab.com/Howakyl"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-gitlab"></i>
+        </a>
+      </li>
+        <li>
           <a
             href="https://github.com/Howakyl"
             target="_blank"
@@ -65,6 +75,9 @@ export default {
     },
     clickedResume() {
       this.$gtag.event("Resume Visit");
+    },
+    clickedGitlab() {
+      this.$gtag.event("gitlab Visit");
     },
   },
 };

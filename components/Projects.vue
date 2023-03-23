@@ -46,6 +46,11 @@
 </template>
 
 <script>
+// TODO - PROJECTS TO ADD:
+// Pixingo
+// Trapdoor Creative
+// Tiered System Support
+// Story Tyke
 import "~/assets/Projects.css";
 import LineHeader from "./LineHeader.vue";
 import Project from "./Project.vue";

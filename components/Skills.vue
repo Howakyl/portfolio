@@ -10,14 +10,17 @@
         <Skill :tooltipText="'Vue.js'">
           <Vue />
         </Skill>
-        <Skill :tooltipText="'Nuxt.js'">
+        <!-- <Skill :tooltipText="'Nuxt.js'">
           <Nuxt />
-        </Skill>
+        </Skill> -->
         <Skill :tooltipText="'TypeScript'">
           <Typescript />
         </Skill>
         <Skill :tooltipText="'JavaScript'">
           <Javascript />
+        </Skill>
+        <Skill :tooltipText="'Java'">
+          <Java />
         </Skill>
         <Skill :tooltipText="'Swift'">
           <Swift />
@@ -97,6 +100,7 @@ import Tailwind from "./svg/skills/Tailwind.vue";
 import Bootstrap from "./svg/skills/Bootstrap.vue";
 import Sass from "./svg/skills/Sass.vue";
 import Swift from "./svg/skills/Swift.vue";
+import Java from "./svg/skills/Java.vue";
 
 export default {
   components: {
@@ -123,6 +127,7 @@ export default {
     Bootstrap,
     Sass,
     Swift,
+    Java
   },
 };
 </script>

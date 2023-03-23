@@ -8,6 +8,16 @@
           target="_blank"
           rel="noopener"
         >
+          <i class="fa-brands fa-gitlab"></i>
+        </a>
+      </li>
+      <li>
+        <a
+          @click="clickedGithub"
+          href="https://github.com/Howakyl"
+          target="_blank"
+          rel="noopener"
+        >
           <i class="fab fa-github"></i>
         </a>
       </li>
@@ -28,6 +38,7 @@
 <script>
 import "~/assets/SocialNav.css";
 export default {
+  components: {  },
   methods: {
     clickedGithub() {
       this.$gtag.event("Github Visit");

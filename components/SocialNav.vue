@@ -3,6 +3,16 @@
     <ul class="social-nav">
       <li>
         <a
+          @click="clickedGitlab"
+          href="https://gitlab.com/Howakyl"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-gitlab"></i>
+        </a>
+      </li>
+      <li>
+        <a
           @click="clickedGithub"
           href="https://github.com/Howakyl"
           target="_blank"
@@ -28,12 +38,16 @@
 <script>
 import "~/assets/SocialNav.css";
 export default {
+  components: {  },
   methods: {
     clickedGithub() {
       this.$gtag.event("Github Visit");
     },
     clickedLinkedIn() {
       this.$gtag.event("LinkedIn Visit");
+    },
+    clickedGitlab() {
+      this.$gtag.event("gitlab Visit");
     },
   },
 };

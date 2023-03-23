@@ -23,6 +23,7 @@
               <Button
                 v-if="githubLink"
                 :content="'Repository'"
+                class="github-link"
                 :isLink="true"
                 :blank="true"
                 :href="githubLink"

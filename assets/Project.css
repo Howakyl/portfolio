@@ -41,10 +41,14 @@
 .project-buttons-container {
   display: flex;
   margin-top: .5rem;
+  /* gap: 1rem; */ 
+}
+
+.github-link a {
+  margin-right: 1rem;
 }
 
 .site-link a {
-  margin-left: 15px;
   padding-left: 50px;
   padding-right: 50px;
 }

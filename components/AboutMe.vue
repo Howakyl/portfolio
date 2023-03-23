@@ -8,8 +8,8 @@
       <div class="about-info-text">
         <p>
           Hi there! My name is Kyle, and I'm a software engineer based out of
-          Seattle, Washington! I am proficient in technologies such as:
-          React, Vue, Node.js, JavaScript, Python, Django, SQL/noSQL, and more.
+          Seattle, Washington. I am proficient in technologies such as:
+          TypeScript, React, Vue, Node.js, Python, Java, SQL/noSQL, and more.
         </p>
         <p>
           I have a passion for building websites and applications from the
@@ -17,8 +17,8 @@
           experience.
         </p>
         <p>
-          My main focus lately has been developing and maintaining accessible, exciting software
-          solutions at XLR8 Development, for a variety of clients.
+          I am currently a Software Engineer II at XLR8 Development, where I am developing exciting software
+          solutions for a variety of clients.
         </p>
         <p>
           Although I spend much of my time coding, I also have a passion for

@@ -4,7 +4,21 @@
       <h2 id="my-work" class="about-title">My Work</h2>
       <LineHeader />
     </div>
-    <Project 
+    <Project
+      :title="'Story Tyke'"
+      :description="storyTykeDescription"
+      :techUsed="storyTykeTech"
+      :projectImage="'storyTyke2.png'"
+      :visitLink="'https://play.google.com/store/apps/details?id=com.storytyke.storytykeandroid&hl=en_US&gl=US'"
+    />
+    <Project
+      :title="'Trapdoor Creative'"
+      :description="trapdoorDescription"
+      :techUsed="trapdoorTech"
+      :projectImage="'trapdoor.png'"
+      :visitLink="'https://www.trapdoorcreative.com/'"
+    />
+    <Project
       :title="'eFinalDate'"
       :description="`Built with the team at XLR8, eFinalDate simplifies the monument making process. By utilizing the ''MagicCard'' to eliminate the need for messy rubbings. Just take a photo with the card, and the image is sized and aligned perfectly for your editing software! I managed the creation of the Nuxt.js frontend, and the iOS companion app.`"
       :techUsed="eFinalDate"
@@ -34,14 +48,6 @@
       :visitLink="'http://wayfarer-kemt.herokuapp.com/'"
       :githubLink="'https://github.com/Howakyl/wayfarer'"
     />
-    <Project
-      :title="'myTrax'"
-      :description="'Create, share, and listen to your own custom song (and video) playlists all in one place, on myTrax! By utilzing YouTube or Spotify APIs, users can listen to, upload, create, and delete playlists.'"
-      :techUsed="myTraxTech"
-      :projectImage="'myTrax.png'"
-      :visitLink="'https://enigmatic-cliffs-18729.herokuapp.com/'"
-      :githubLink="'https://github.com/Howakyl/myTrax'"
-    />
   </section>
 </template>
 
@@ -68,7 +74,7 @@ export default {
         "Firebase",
         "Sass",
         "Google Analytics",
-        "HTML5"
+        "HTML5",
       ],
       fishilyTech: [
         "React",
@@ -95,19 +101,14 @@ export default {
         "CSS3",
         "HTML5",
       ],
-      myTraxTech: [
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "EJS",
-        "Javascript",
-        "Heroku",
-        "Bootstrap",
-        "CSS3",
-        "HTML5",
-      ],
       tamagotchiTech: ["jQuery", "Typescript", "CSS3", "HTML5"],
-      eFinalDate: ["Vue", "Nuxt.js", "Swift", "AWS", "Tailwind.css"]
+      eFinalDate: ["Vue", "Nuxt.js", "Swift", "AWS", "Tailwind.css"],
+      storyTykeTech: ["Java", "Firebase", "Django", "Python"],
+      trapdoorTech: ["React", "Node.js", "AWS", "Firebase"],
+      trapdoorDescription:
+        "In collaboration with the XLR8 Team and Trapdoor Creative, I created an in-browser file explorer/uploader for users 3D assets, as well as overhauling Trapdoor's account management pages.",
+      storyTykeDescription: `The Story Tyke android app provides bedtime stories for your children in text, picture, and audio formats! 
+      With the XLR8 team I oversaw project planning, creation of UI elements, payment integration, and API implementation.`,
     };
   },
 };

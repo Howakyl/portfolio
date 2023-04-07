@@ -3,6 +3,13 @@
     <h3>Other Noteworthy Projects:</h3>
     <section class="other-projects">
       <OtherProject
+        :title="'myTrax'"
+        :description="'Create, share, and listen to your own custom song (and video) playlists all in one place, on myTrax! By utilizing YouTube or Spotify APIs, users can listen to, upload, create, and delete playlists.'"
+        :techUsed="myTraxTech"
+        :visitLink="'https://enigmatic-cliffs-18729.herokuapp.com/'"
+        :githubLink="'https://github.com/Howakyl/myTrax'"
+      />
+      <OtherProject
         :githubLink="'https://github.com/Howakyl/repo-finder'"
         :title="'RepoFinder'"
         :description="'Search for any GitHub Organization, see recent pull requests, stars, and more.'"
@@ -40,6 +47,20 @@ export default {
       repoFinder: ["React", "Javascript", "CSS3", "HTML5"],
       smsBot: ["Python", "Flask", "Twilio"],
       tamagotchiTech: ["jQuery", "Typescript", "CSS3", "HTML5"],
+      myTraxTech: [
+        "Node",
+        // "Express",
+        "MongoDB",
+        "EJS",
+        "Javascript",
+        "Heroku",
+        "Bootstrap",
+        // "CSS3",
+        // "HTML5",
+      ],
+      trapdoorTech: ["React", "Node", "AWS", "Firebase"],
+      trapdoorDescription:
+        "In collaboration with the XLR8 Team and Trapdoor Creative, I created an in-browser file explorer/uploader for users 3D assets, as well as overhauling Trapdoor's account management pages.",
     };
   },
 };

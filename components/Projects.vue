@@ -2,7 +2,7 @@
   <section class="projects-wrapper">
     <div class="container my-work-title">
       <h2 id="my-work" class="about-title">My Work</h2>
-      <LineHeader />
+      <LineHeader :maxSize="true" />
     </div>
     <div class="projects-container">
       <Project
@@ -26,7 +26,16 @@
         :projectImage="'efd3.png'"
         :visitLink="'https://alpha-efinaldate.netlify.app/'"
       />
+      <Project 
+        :title="'TieredTracker'"
+        :description="tssDescription"
+        :techUsed="tssTech"
+        :projectImage="'tss.png'"
+        :visitLink="'http://beta.tieredtracker.com/'"
+        :credentials="'email: admin@testingschool.com, password: Jo0HMX#uhR#V'"
+      />
       <Project
+        v-if="showMore"
         :title="'Cheerlending'"
         :description="'Cheerlending is an app made to help California residents find a lower interest rate on their mortgage. I was focused on the frontend features of this project along with the team at XLR8, as well as creating and managing analytics features for our client.'"
         :techUsed="cheerlendingTech"
@@ -55,7 +64,6 @@
 <script>
 // TODO - PROJECTS TO ADD:
 // Pixingo
-// Tiered System Support
 import "~/assets/Projects.css";
 import LineHeader from "./LineHeader.vue";
 import Project from "./Project.vue";
@@ -103,14 +111,22 @@ export default {
         "CSS3",
         "HTML5",
       ],
+      tssTech: [
+        "React",
+        "Javascript",
+        "Python",
+        "Django",
+        "Tailwind.css"
+      ],
       tamagotchiTech: ["jQuery", "Typescript", "CSS3", "HTML5"],
       eFinalDate: ["Vue", "Nuxt.js", "Swift", "AWS", "Tailwind.css"],
       storyTykeTech: ["Java", "Firebase", "Django", "Python"],
       trapdoorTech: ["React", "Node.js", "AWS", "Firebase"],
       trapdoorDescription:
-        "In collaboration with the XLR8 Team and Trapdoor Creative, I created an in-browser file explorer/uploader for user's 3D assets, as well as overhauling Trapdoor Creative's account management page.",
+        "In collaboration with the XLR8 Team and Trapdoor Creative, I utilized AWS and Node.js to create an in-browser file explorer/uploader for user's 3D assets, as well as overhauling Trapdoor Creative's account management page.",
       storyTykeDescription: `The Story Tyke android app provides bedtime stories for your children in text, picture, and audio formats! 
       With the XLR8 team I oversaw project planning, creation of UI elements, audiobook features, payment integration, and API implementation.`,
+      tssDescription: "Built with the XLR8 team, TieredTracker is an app used to help schools manage students 'intervention time', where they can schedule various activities. I led frontend features for this project, as well as making significant performance improvements to the TSS API as the userbase has grown."
     };
   },
   methods: {

@@ -3,6 +3,20 @@
     <h3>Other Noteworthy Projects:</h3>
     <section class="other-projects">
       <OtherProject
+        :title="'myTrax'"
+        :description="'Create, share, and listen to your own custom song (and video) playlists all in one place, on myTrax! By utilizing YouTube or Spotify APIs, users can listen to, upload, create, and delete playlists.'"
+        :techUsed="myTraxTech"
+        :visitLink="'https://enigmatic-cliffs-18729.herokuapp.com/'"
+        :githubLink="'https://github.com/Howakyl/myTrax'"
+      />
+      <OtherProject
+        :title="'Wayfarer'"
+        :description="`Built with my classmates at General Assembly, Wayfarer is a travel app where users can create profiles, make posts showing off their favorite travel destinations, and comment on other users' posts.`"
+        :techUsed="wayfarerTech"
+        :visitLink="'http://wayfarer-kemt.herokuapp.com/'"
+        :githubLink="'https://github.com/Howakyl/wayfarer'"
+      />
+      <OtherProject
         :githubLink="'https://github.com/Howakyl/repo-finder'"
         :title="'RepoFinder'"
         :description="'Search for any GitHub Organization, see recent pull requests, stars, and more.'"
@@ -40,6 +54,27 @@ export default {
       repoFinder: ["React", "Javascript", "CSS3", "HTML5"],
       smsBot: ["Python", "Flask", "Twilio"],
       tamagotchiTech: ["jQuery", "Typescript", "CSS3", "HTML5"],
+      myTraxTech: [
+        "Node",
+        // "Express",
+        "MongoDB",
+        "EJS",
+        "Javascript",
+        "Heroku",
+        "Bootstrap",
+        // "CSS3",
+        // "HTML5",
+      ],
+      wayfarerTech: [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        // "Heroku",
+        "Javascript",
+        "Materialize",
+        // "CSS3",
+        // "HTML5",
+      ],
     };
   },
 };

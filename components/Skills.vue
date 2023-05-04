@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <h2 class="about-title"><span>M</span>y <span>S</span>kills</h2>
-      <LineHeader />
+      <LineHeader :maxSize="true" />
       <div class="skill-icon-container">
         <Skill :tooltipText="'React.js'">
           <React />

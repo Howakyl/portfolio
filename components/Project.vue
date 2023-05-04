@@ -3,13 +3,16 @@
     <LazyContent :imageLink="visitLink" :imageSrc="projectImage" />
     <div>
       <div class="project-info">
-        <div>
+        <div class="project-header">
           <h3 class="project-title">{{ title }}</h3>
-          <div class="line"></div>
+          <LineHeader :maxSize="true" />
         </div>
         <div>
           <p>
             {{ description }}
+          </p>
+          <p v-if="credentials" class="project-credentials">
+            <span>Credentials: </span> {{  credentials }}
           </p>
           <h5 class="tech-used">Technologies Used:</h5>
           <section class="tech-used-items">
@@ -60,6 +63,7 @@ export default {
     projectImage: String,
     githubLink: String,
     visitLink: String,
+    credentials: String
   },
   methods: {
     visitedRepo() {

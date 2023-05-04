@@ -2,7 +2,7 @@
   <article id="about" class="about-article container">
     <div>
       <h2 class="about-title">About Me</h2>
-      <LineHeader />
+      <LineHeader :maxSize="true"/>
     </div>
     <section class="about-info">
       <div class="about-info-text">

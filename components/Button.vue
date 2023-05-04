@@ -1,6 +1,6 @@
 <template>
   <div class="button">
-    <button v-if="!isLink" type="button" class="btn">
+    <button v-if="!isLink" type="button" class="btn" @click="onClick">
       <slot />
       {{ content }}
     </button>
@@ -34,6 +34,10 @@ export default {
     blank: {
       type: Boolean,
     },
+    onClick: {
+      type: Function,
+      default: () => {}
+    }
   },
 };
 </script>

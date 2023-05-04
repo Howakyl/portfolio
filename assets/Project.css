@@ -1,6 +1,5 @@
 .project-container {
   margin: 0 auto;
-  margin-bottom: 13rem;
   display: flex;
 }
 
@@ -13,12 +12,26 @@
   animation-duration: 1s;
 }
 
+.project-header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .project-title {
   letter-spacing: 2px;
   font-size: 40px;
   margin-bottom: 0.5em;
   color: var(--main-accent);
   display: inline-block;
+}
+
+.project-credentials {
+  margin-top: .5rem;
+}
+
+.project-credentials span {
+  font-weight: bold;
+  color: var(--main-accent);
 }
 
 .tech-used {

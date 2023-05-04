@@ -1,7 +1,3 @@
-.project-container {
-  margin-bottom: 13rem;
-}
-
 .other-projects-container {
   flex-direction: column;
   display: flex;
@@ -18,6 +14,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 .other-projects h4 {
@@ -39,5 +36,10 @@
 
   .project-container {
     margin-left: 1em;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .other-projects{
+    margin: 0 2.5rem 2rem 2.5rem;
   }
 }

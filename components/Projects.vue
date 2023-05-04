@@ -42,15 +42,6 @@
         :visitLink="'https://fishily.netlify.app/'"
         :githubLink="'https://github.com/Howakyl/fishily-client'"
       />
-      <Project
-        v-if="showMore"
-        :title="'Wayfarer'"
-        :description="`Built with my classmates at General Assembly, Wayfarer is a travel app where users can create profiles, make posts showing off their favorite travel destinations, and comment on other users' posts. Full CRUD on Users, Posts, and Comments.`"
-        :techUsed="wayfarerTech"
-        :projectImage="'wayfarer.png'"
-        :visitLink="'http://wayfarer-kemt.herokuapp.com/'"
-        :githubLink="'https://github.com/Howakyl/wayfarer'"
-      />
     </div>
 
     <Button

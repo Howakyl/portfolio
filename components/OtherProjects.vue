@@ -10,6 +10,13 @@
         :githubLink="'https://github.com/Howakyl/myTrax'"
       />
       <OtherProject
+        :title="'Wayfarer'"
+        :description="`Built with my classmates at General Assembly, Wayfarer is a travel app where users can create profiles, make posts showing off their favorite travel destinations, and comment on other users' posts.`"
+        :techUsed="wayfarerTech"
+        :visitLink="'http://wayfarer-kemt.herokuapp.com/'"
+        :githubLink="'https://github.com/Howakyl/wayfarer'"
+      />
+      <OtherProject
         :githubLink="'https://github.com/Howakyl/repo-finder'"
         :title="'RepoFinder'"
         :description="'Search for any GitHub Organization, see recent pull requests, stars, and more.'"
@@ -58,9 +65,16 @@ export default {
         // "CSS3",
         // "HTML5",
       ],
-      trapdoorTech: ["React", "Node", "AWS", "Firebase"],
-      trapdoorDescription:
-        "In collaboration with the XLR8 Team and Trapdoor Creative, I created an in-browser file explorer/uploader for users 3D assets, as well as overhauling Trapdoor's account management pages.",
+      wayfarerTech: [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        // "Heroku",
+        "Javascript",
+        "Materialize",
+        // "CSS3",
+        // "HTML5",
+      ],
     };
   },
 };

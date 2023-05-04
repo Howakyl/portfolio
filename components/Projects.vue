@@ -122,7 +122,7 @@ export default {
       storyTykeDescription: `The Story Tyke android app provides bedtime stories for your children in text, picture, and audio formats! 
       With the XLR8 team I oversaw project planning, creation of UI elements, audiobook features, payment integration, and API implementation.`,
       tssDescription:
-        "Built with the XLR8 team, TieredTracker is an app used to help schools manage students 'intervention time', where they can schedule various activities. I led frontend features for this project, as well as making significant performance improvements to the TSS API as the userbase has grown.",
+        "Built with the XLR8 team, TieredTracker is an app used to help schools manage students 'intervention time', where they can schedule various activities. I led frontend features for this project, as well as making significant additions and performance improvements to the TSS API as the userbase has grown.",
     };
   },
   methods: {

@@ -19,7 +19,7 @@
   overflow: hidden;
   transition:max-height 1s ease-in-out;
   height: auto;
-  max-height: 1400px;
+  max-height: 2200px;
 }
 
 .collapsed {
@@ -27,7 +27,7 @@
 }
 
 .expanded {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .showmore-btn button {

@@ -42,3 +42,8 @@
     margin-left: 1em;
   }
 }
+@media only screen and (min-width: 600px) {
+  .other-projects{
+    margin: 0 2.5rem 2rem 2.5rem;
+  }
+}

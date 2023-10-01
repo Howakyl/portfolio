@@ -21,7 +21,7 @@
       />
       <Project
         :title="'eFinalDate'"
-        :description="`Built with the team at XLR8, eFinalDate simplifies the monument making process. By utilizing the ''MagicCard'' to eliminate the need for messy rubbings. Just take a photo with the card, and the image is sized and aligned perfectly for your editing software! I managed the creation of the Nuxt.js frontend, and the iOS companion app.`"
+        :description="`Built with the team at XLR8, eFinalDate simplifies the monument making process. By utilizing the ''MagicCard'' to eliminate the need for messy rubbings. Just take a photo with the card, and the image is sized and aligned perfectly for your editing software! I managed the creation of the Nuxt.js frontend, updating the Python/AWS API, and updates to the Android & iOS companion apps.`"
         :techUsed="eFinalDate"
         :projectImage="'efd3.png'"
         :visitLink="'https://alpha-efinaldate.netlify.app/'"

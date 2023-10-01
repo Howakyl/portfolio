@@ -19,7 +19,7 @@
         <p>
           I am currently a Software Engineer II at XLR8 Development, where I am
           developing exciting software solutions for a variety of clients. In my
-          current role, I am a "jack of all trades". On an average day, I jump
+          current role, I'd describe myself as a "jack of all trades". On an average day, I jump
           between frontend and backend work, and from time to time working on
           native mobile apps! This helps me stay up to date in my various
           skills, and allows me to often be exposed to newer technologies.

@@ -31,7 +31,7 @@
           smooth bass lines to clear my head!
         </p>
       </div>
-      <LazyContent :imageSrc="'me.png'" class="me-img-div" />
+      <Content :imageSrc="'me.png'" class="me-img-div" />
     </section>
   </article>
 </template>

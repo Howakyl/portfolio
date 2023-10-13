@@ -3,11 +3,8 @@
 </template>
 
 <script>
+import "~/assets/Divider.css";
 export default {};
 </script>
 
-<style scoped>
-.divider {
-  color: var(--secondary-accent);
-}
-</style>
+<style></style>

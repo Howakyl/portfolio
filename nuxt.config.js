@@ -1,5 +1,6 @@
 export default {
   target: "static",
+  ssr: false,
   components: true,
   buildModules: [
     [
@@ -9,6 +10,21 @@ export default {
       },
     ],
   ],
+  extractCSS: {
+    ignoreOrder: true
+  },
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        styles: {
+          name: 'styles',
+          test: /\.(css|vue)$/,
+          chunks: 'all',
+          enforce: true
+        }
+      }
+    }
+  },
   head: {
     title: "Kyle Howard - Software Engineer",
     htmlAttrs: {

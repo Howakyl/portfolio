@@ -1,6 +1,6 @@
 <template>
   <div class="container project-container">
-    <LazyContent :imageLink="visitLink" :imageSrc="projectImage" />
+    <Content :imageLink="visitLink" :imageSrc="projectImage" />
     <div>
       <div class="project-info">
         <div class="project-header">

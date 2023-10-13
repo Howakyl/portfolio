@@ -2,7 +2,7 @@
   <article id="about" class="about-article container">
     <div>
       <h2 class="about-title">About Me</h2>
-      <LineHeader :maxSize="true"/>
+      <LineHeader :maxSize="true" />
     </div>
     <section class="about-info">
       <div class="about-info-text">
@@ -17,8 +17,12 @@
           experience.
         </p>
         <p>
-          I am currently a Software Engineer II at XLR8 Development, where I am developing exciting software
-          solutions for a variety of clients.
+          I am currently a Software Engineer II at XLR8 Development, where I am
+          developing exciting software solutions for a variety of clients. In my
+          current role, I'd describe myself as a "jack of all trades". On an average day, I jump
+          between frontend and backend work, and from time to time working on
+          native mobile apps! This helps me stay up to date in my various
+          skills, and allows me to often be exposed to newer technologies.
         </p>
         <p>
           Although I spend much of my time coding, I also have a passion for
@@ -27,15 +31,14 @@
           smooth bass lines to clear my head!
         </p>
       </div>
-      <LazyContent :imageSrc="'me.png'" class="me-img-div" />
+      <Content :imageSrc="'me.png'" class="me-img-div" />
     </section>
   </article>
 </template>
 
 <script>
 import "~/assets/AboutMe.css";
-export default {
-};
+export default {};
 </script>
 
 <style></style>

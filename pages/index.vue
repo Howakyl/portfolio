@@ -1,15 +1,15 @@
 <template>
   <main>
-    <LazyNavbar />
-    <LazySocialNav />
+    <Navbar />
+    <SocialNav />
     <div class="entire-container">
-      <LazyThemeToggle />
-      <LazyHero />
-      <LazyAboutMe />
-      <LazyProjects />
-      <LazyOtherProjects />
-      <LazySkills />
-      <LazyContactMe />
+      <ThemeToggle />
+      <Hero />
+      <AboutMe />
+      <Projects />
+      <OtherProjects />
+      <Skills />
+      <ContactMe />
     </div>
   </main>
 </template>

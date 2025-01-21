@@ -33,6 +33,15 @@
   position: relative;
 }
 
+.project-img {
+  height: fit-content;
+}
+
+.project-img img {
+  min-width: 500px;
+  min-height: 300px;
+}
+
 .img-border {
   border: 2px solid var(--secondary-accent);
   display: inline-block;

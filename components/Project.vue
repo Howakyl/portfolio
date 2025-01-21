@@ -1,6 +1,6 @@
 <template>
   <div class="container project-container">
-    <Content :imageLink="visitLink" :imageSrc="projectImage" />
+    <Content :imageLink="visitLink" :imageSrc="projectImage" :class="'project-img'" />
     <div>
       <div class="project-info">
         <div class="project-header">
@@ -12,7 +12,7 @@
             {{ description }}
           </p>
           <p v-if="credentials" class="project-credentials">
-            <span>Credentials: </span> {{  credentials }}
+            <span>Credentials: </span> {{ credentials }}
           </p>
           <h5 class="tech-used">Technologies Used:</h5>
           <section class="tech-used-items">
@@ -63,7 +63,7 @@ export default {
     projectImage: String,
     githubLink: String,
     visitLink: String,
-    credentials: String
+    credentials: String,
   },
   methods: {
     visitedRepo() {

@@ -17,8 +17,8 @@
         @click="clickedResume"
         class="contact-link"
         target="_blank"
-        rel="noopener"
-        href="https://docs.google.com/document/d/1MAt_-fCumu1AE1B0IdEkoF5WKIZOSOue-u8qHDhUWug/edit?usp=sharing"
+        rel="noopener noreferrer"
+        href="kyle-resume-7-24.pdf"
         >Resume</a
       >
     </h4>
